@@ -37,7 +37,16 @@ func makeRequest(url string) Result {
 }
 
 func runWorkerPool(url string, totalRequests int, concurrency int) []Result {
+	jobs := make(chan int)
+	result := make(chan int)
 
+	N := concurrency
+
+	for i := 1; i <= N; i++ {
+		go func() {
+			job <- makeRequest(url)
+		}
+	}
 
 }
 
