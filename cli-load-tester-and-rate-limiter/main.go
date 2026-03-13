@@ -8,8 +8,8 @@ import (
 
 type Result struct {
 	StatusCode int
-	Duration time.Duration
-	Error error
+	Duration   time.Duration
+	Error      error
 }
 
 func makeRequest(url string) Result {
@@ -31,33 +31,47 @@ func makeRequest(url string) Result {
 	//Return result
 	return Result{
 		StatusCode: resp.StatusCode,
-		Duration: end,
-		Error: nil,
+		Duration:   end,
+		Error:      nil,
 	}
 }
-
 func runWorkerPool(url string, totalRequests int, concurrency int) []Result {
-	jobs := make(chan int)
-	result := make(chan int)
+	jobs := make(chan string, totalRequests)
+	results := make(chan Result)
+	finalRes := []Result{}
 
 	N := concurrency
-
+	// t := totalRequests
+	//Loop concurrency times
 	for i := 1; i <= N; i++ {
 		go func() {
-			job <- makeRequest(url)
-		}
+			for item := range jobs {
+				results <- makeRequest(item)
+			}
+		}()
 	}
 
+	for j := 1; j <= totalRequests; j++ {
+		jobs <- url
+	}
+	close(jobs)
+
+	for k := 1; k <= totalRequests; k++ {
+		finalRes = append(finalRes, <-results)
+	}
+	return finalRes
 }
 
 func main() {
 	url := "https://google.com"
-	result := makeRequest(url)
+	result := runWorkerPool(url, 10, 3)
+	fmt.Println(result)
+	// reresults <- makeRequest(url)sult := makeRequest(url)
 
-	if result.Error != nil {
-		fmt.Println("Request Error", result.Error)
-		return
-	}
-	
-	fmt.Printf("status: %d | duration: %v\n", result.StatusCode, result.Duration)
+	// if result.Error != nil {
+	// 	fmt.Println("Request Error", result.Error)
+	// 	return
+	// }
+
+	// fmt.Printf("status: %d | duration: %v\n", result.StatusCode, result.Duration)
 }
