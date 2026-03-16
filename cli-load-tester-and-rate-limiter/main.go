@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"net/http"
 	"sort"
@@ -97,7 +98,7 @@ func calculateStats(results []Result, totalTime time.Duration) Stats {
 	failure := 0
 	durations := []time.Duration{}
 	for _, r := range results {
-		if r.StatusCode == 200 {
+		if r.StatusCode < 400 {
 			success++
 		} else {
 			failure++
@@ -121,15 +122,49 @@ func calculateStats(results []Result, totalTime time.Duration) Stats {
 }
 
 func main() {
-	url := "https://google.com"
+	url := flag.String("url", "https://google.com", "Url to check")
+	requests := flag.Int("requests", 10, "Total request to make to the url")
+	concurrency := flag.Int("concurrency", 0, "How many workers are making request at a time")
+	rate := flag.Int("rate", 3, "How many request at a time")
+
+	flag.Parse()
+
+	if *url == "" {
+		fmt.Println("error: url cannot be empty")
+		return
+	}
+
+	type Flags struct {
+		Request     int
+		Concurrency int
+		Rate        int
+	}
+
+	flagMap := make(map[string]int)
+
+	checkMap := flagMap[]
+
+	// checkFlag := Flags{
+	// 	Request:     *requests,
+	// 	Concurrency: *concurrency,
+	// 	Rate:        *rate,
+	// }
+
+	for i, v := range checkFlag {
+		if v <= 0 {
+			fmt.Printf("error: %d cannot be less than 1\n", checkFlag[i])
+			return
+		}
+	}
+
+	// if *url == "" || *requests == 0 || *concurrency == 0 || *rate == 0 {
+	// 	fmt.Println("url must be a string and most not be empty. Request, Concurrency, Rate must be an int and not 0")
+	// 	return
+	// }
 
 	start := time.Now()
-	results := runWorkerPool(url, 10, 3, 2)
+	results := runWorkerPool(*url, *requests, *concurrency, *rate)
 	totalTime := time.Since(start)
-	// var totalTime time.Duration
-	// for _, r := range results {
-	// 	totalTime += r.Duration
-	// }
 
 	stats := calculateStats(results, totalTime)
 	fmt.Printf("Total Requests: %d\n", stats.TotalRequests)
@@ -139,20 +174,4 @@ func main() {
 	fmt.Printf("p95: %v\n", stats.p95)
 	fmt.Printf("p99: %v\n", stats.p99)
 	fmt.Printf("Total Time: %v\n", stats.TotalTime)
-
-	// for i, r := range results {
-	// 	fmt.Printf("[%d] Status: %d | Duration: %v\n", i+1, r.StatusCode, r.Duration)
-	// }
-
-	// for i, r := range results {
-	// 	fmt.Printf("[%d] Status: %d | Duration: %v\n", i+1, r.StatusCode, r.Duration)
-	// }
-	// reresults <- makeRequest(url)sult := makeRequest(url)
-
-	// if result.Error != nil {
-	// 	fmt.Println("Request Error", result.Error)
-	// 	return
-	// }
-
-	// fmt.Printf("status: %d | duration: %v\n", result.StatusCode, result.Duration)
 }
