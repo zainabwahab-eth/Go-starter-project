@@ -140,27 +140,18 @@ func main() {
 		Rate        int
 	}
 
-	flagMap := make(map[string]int)
+	flagMap := map[string]int{
+		"request":     *requests,
+		"concurrency": *concurrency,
+		"rate":        *rate,
+	}
 
-	checkMap := flagMap[]
-
-	// checkFlag := Flags{
-	// 	Request:     *requests,
-	// 	Concurrency: *concurrency,
-	// 	Rate:        *rate,
-	// }
-
-	for i, v := range checkFlag {
+	for k, v := range flagMap {
 		if v <= 0 {
-			fmt.Printf("error: %d cannot be less than 1\n", checkFlag[i])
+			fmt.Printf("error: %s cannot be less than 1\n", k)
 			return
 		}
 	}
-
-	// if *url == "" || *requests == 0 || *concurrency == 0 || *rate == 0 {
-	// 	fmt.Println("url must be a string and most not be empty. Request, Concurrency, Rate must be an int and not 0")
-	// 	return
-	// }
 
 	start := time.Now()
 	results := runWorkerPool(*url, *requests, *concurrency, *rate)
