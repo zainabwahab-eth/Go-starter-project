@@ -1,48 +1,2177 @@
-2026/03/25 15:55:40 WARN Memory usage above 80%
-2026/03/25 15:55:41 ERROR Memory usage above 80%
-2026/03/25 15:55:42 WARN Memory usage above 80%
-2026/03/25 15:55:43 INFO Memory usage above 80%
-2026/03/25 15:55:44 ERROR Server started on port 3000
-2026/03/25 15:55:45 WARN Memory usage above 80%
-2026/03/25 15:55:46 ERROR Database connection failed
-2026/03/25 15:55:47 INFO Memory usage above 80%
-2026/03/25 15:55:48 WARN Memory usage above 80%
-2026/03/25 15:55:49 INFO Memory usage above 80%
-2026/03/25 15:55:50 WARN Memory usage above 80%
-2026/03/25 15:55:51 WARN Memory usage above 80%
-2026/03/25 15:55:52 INFO Memory usage above 80%
-2026/03/25 15:55:53 ERROR Database connection failed
-2026/03/25 15:55:54 INFO Server started on port 3000
-2026/03/25 15:55:55 ERROR Server started on port 3000
-2026/03/25 15:55:56 WARN Server started on port 3000
-2026/03/25 15:55:57 INFO Database connection failed
-2026/03/25 15:55:58 INFO Server started on port 3000
-2026/03/25 15:55:59 INFO Memory usage above 80%
-2026/03/25 15:56:00 INFO Memory usage above 80%
-2026/03/25 15:56:01 INFO Server started on port 3000
-2026/03/25 15:56:02 WARN Memory usage above 80%
-2026/03/25 15:56:03 ERROR Memory usage above 80%
-2026/03/25 15:56:04 WARN Memory usage above 80%
-2026/03/25 15:56:05 ERROR Database connection failed
-2026/03/25 15:56:06 ERROR Database connection failed
-2026/03/25 15:56:07 WARN Memory usage above 80%
-2026/03/25 15:56:08 INFO Database connection failed
-2026/03/25 15:56:09 ERROR Memory usage above 80%
-2026/03/25 15:56:10 INFO Server started on port 3000
-2026/03/25 15:56:11 INFO Server started on port 3000
-2026/03/25 15:56:12 INFO Server started on port 3000
-2026/03/25 15:56:13 INFO Database connection failed
-2026/03/25 15:56:14 WARN Database connection failed
-2026/03/25 15:56:15 ERROR Server started on port 3000
-2026/03/25 15:56:16 WARN Memory usage above 80%
-2026/03/25 15:56:17 WARN Server started on port 3000
-2026/03/25 15:56:18 INFO Memory usage above 80%
-2026/03/25 15:56:19 INFO Memory usage above 80%
-2026/03/25 15:56:20 INFO Database connection failed
-2026/03/25 15:56:21 ERROR Server started on port 3000
-2026/03/25 15:56:22 WARN Memory usage above 80%
-2026/03/25 15:56:23 INFO Database connection failed
-2026/03/25 15:56:24 WARN Server started on port 3000
-2026/03/25 15:56:25 WARN Server started on port 3000
-2026/03/25 15:56:26 INFO Memory usage above 80%
-2026/03/25 15:56:27 WARN Server started on port 3000
+2026/03/26 17:32:22 WARN Memory usage above 80%
+2026/03/26 17:32:23 INFO Server started on port 3000
+2026/03/26 17:32:24 INFO Memory usage above 80%
+2026/03/26 17:32:25 ERROR Server started on port 3000
+2026/03/26 17:32:26 ERROR Database connection failed
+2026/03/26 17:32:27 WARN Server started on port 3000
+2026/03/26 17:32:28 ERROR Memory usage above 80%
+2026/03/26 17:32:29 ERROR Database connection failed
+2026/03/26 17:32:30 WARN Database connection failed
+2026/03/26 17:32:31 WARN Server started on port 3000
+2026/03/26 17:32:32 WARN Memory usage above 80%
+2026/03/26 17:32:33 WARN Server started on port 3000
+2026/03/26 17:32:34 INFO Memory usage above 80%
+2026/03/26 17:32:35 WARN Database connection failed
+2026/03/26 17:32:36 ERROR Server started on port 3000
+2026/03/26 17:32:37 ERROR Memory usage above 80%
+2026/03/26 17:32:38 INFO Database connection failed
+2026/03/26 17:32:39 WARN Server started on port 3000
+2026/03/26 17:32:40 ERROR Memory usage above 80%
+2026/03/26 17:32:41 ERROR Memory usage above 80%
+2026/03/26 17:32:42 WARN Memory usage above 80%
+2026/03/26 17:32:43 WARN Memory usage above 80%
+2026/03/26 17:32:44 WARN Server started on port 3000
+2026/03/26 17:32:45 INFO Server started on port 3000
+2026/03/26 17:32:46 WARN Database connection failed
+2026/03/26 17:32:47 ERROR Database connection failed
+2026/03/26 17:32:48 ERROR Database connection failed
+2026/03/26 17:32:49 INFO Memory usage above 80%
+2026/03/26 17:32:50 ERROR Memory usage above 80%
+2026/03/26 17:32:51 INFO Memory usage above 80%
+2026/03/26 17:32:52 INFO Database connection failed
+2026/03/26 17:32:53 ERROR Memory usage above 80%
+2026/03/26 17:32:54 WARN Server started on port 3000
+2026/03/26 17:32:55 INFO Database connection failed
+2026/03/26 17:32:56 ERROR Memory usage above 80%
+2026/03/26 17:32:57 WARN Memory usage above 80%
+2026/03/26 17:32:58 WARN Server started on port 3000
+2026/03/26 17:32:59 ERROR Memory usage above 80%
+2026/03/26 17:33:00 INFO Server started on port 3000
+2026/03/26 17:33:01 INFO Database connection failed
+2026/03/26 17:33:02 ERROR Database connection failed
+2026/03/26 17:33:03 WARN Database connection failed
+2026/03/26 17:33:04 WARN Database connection failed
+2026/03/26 17:33:05 WARN Server started on port 3000
+2026/03/26 17:33:06 INFO Memory usage above 80%
+2026/03/26 17:33:07 ERROR Server started on port 3000
+2026/03/26 17:33:08 WARN Database connection failed
+2026/03/26 17:33:09 INFO Server started on port 3000
+2026/03/26 17:33:10 WARN Server started on port 3000
+2026/03/26 17:33:11 WARN Memory usage above 80%
+2026/03/26 17:33:12 ERROR Server started on port 3000
+2026/03/26 17:33:13 INFO Memory usage above 80%
+2026/03/26 17:33:14 INFO Server started on port 3000
+2026/03/26 17:33:15 INFO Server started on port 3000
+2026/03/26 17:33:16 INFO Database connection failed
+2026/03/26 17:33:17 WARN Server started on port 3000
+2026/03/26 17:33:18 INFO Database connection failed
+2026/03/26 17:33:19 ERROR Database connection failed
+2026/03/26 17:33:20 WARN Database connection failed
+2026/03/26 17:33:21 INFO Memory usage above 80%
+2026/03/26 17:33:22 ERROR Memory usage above 80%
+2026/03/26 17:33:23 ERROR Server started on port 3000
+2026/03/26 17:33:24 WARN Memory usage above 80%
+2026/03/26 17:33:25 INFO Memory usage above 80%
+2026/03/26 17:33:26 ERROR Database connection failed
+2026/03/26 17:33:27 ERROR Database connection failed
+2026/03/26 17:33:28 INFO Database connection failed
+2026/03/26 17:33:29 ERROR Database connection failed
+2026/03/26 17:33:30 INFO Server started on port 3000
+2026/03/26 17:33:31 INFO Server started on port 3000
+2026/03/26 17:33:32 INFO Server started on port 3000
+2026/03/26 17:33:33 ERROR Server started on port 3000
+2026/03/26 17:33:34 WARN Server started on port 3000
+2026/03/26 17:33:35 ERROR Memory usage above 80%
+2026/03/26 17:33:36 ERROR Database connection failed
+2026/03/26 17:33:37 WARN Server started on port 3000
+2026/03/26 17:33:38 WARN Database connection failed
+2026/03/26 17:33:39 INFO Memory usage above 80%
+2026/03/26 17:33:40 ERROR Database connection failed
+2026/03/26 17:33:41 ERROR Database connection failed
+2026/03/26 17:33:42 ERROR Database connection failed
+2026/03/26 17:33:43 WARN Server started on port 3000
+2026/03/26 17:33:44 INFO Server started on port 3000
+2026/03/26 17:33:45 INFO Database connection failed
+2026/03/26 17:33:46 INFO Server started on port 3000
+2026/03/26 17:33:47 WARN Server started on port 3000
+2026/03/26 17:33:48 INFO Server started on port 3000
+2026/03/26 17:33:49 ERROR Server started on port 3000
+2026/03/26 17:33:50 ERROR Server started on port 3000
+2026/03/26 17:33:51 WARN Memory usage above 80%
+2026/03/26 17:33:52 WARN Memory usage above 80%
+2026/03/26 17:33:53 WARN Server started on port 3000
+2026/03/26 17:33:54 INFO Server started on port 3000
+2026/03/26 17:33:55 INFO Database connection failed
+2026/03/26 17:33:56 ERROR Database connection failed
+2026/03/26 17:33:57 WARN Server started on port 3000
+2026/03/26 17:33:58 INFO Memory usage above 80%
+2026/03/26 17:33:59 ERROR Memory usage above 80%
+2026/03/26 17:34:00 ERROR Database connection failed
+2026/03/26 17:34:01 ERROR Server started on port 3000
+2026/03/26 17:34:02 WARN Memory usage above 80%
+2026/03/26 17:34:03 ERROR Database connection failed
+2026/03/26 17:34:04 INFO Memory usage above 80%
+2026/03/26 17:34:05 ERROR Database connection failed
+2026/03/26 17:34:06 ERROR Database connection failed
+2026/03/26 17:34:07 ERROR Server started on port 3000
+2026/03/26 17:34:08 ERROR Server started on port 3000
+2026/03/26 17:34:09 WARN Database connection failed
+2026/03/26 17:34:10 INFO Database connection failed
+2026/03/26 17:34:11 WARN Database connection failed
+2026/03/26 17:34:12 ERROR Memory usage above 80%
+2026/03/26 17:34:13 ERROR Database connection failed
+2026/03/26 17:34:14 INFO Server started on port 3000
+2026/03/26 17:34:15 INFO Server started on port 3000
+2026/03/26 17:34:16 WARN Server started on port 3000
+2026/03/26 17:34:17 INFO Server started on port 3000
+2026/03/26 17:34:18 INFO Memory usage above 80%
+2026/03/26 17:34:19 ERROR Memory usage above 80%
+2026/03/26 17:34:20 INFO Server started on port 3000
+2026/03/26 17:34:21 ERROR Database connection failed
+2026/03/26 17:34:22 INFO Database connection failed
+2026/03/26 17:34:23 ERROR Server started on port 3000
+2026/03/26 17:34:24 WARN Memory usage above 80%
+2026/03/26 17:34:25 INFO Server started on port 3000
+2026/03/26 17:34:26 INFO Server started on port 3000
+2026/03/26 17:34:27 ERROR Server started on port 3000
+2026/03/26 17:34:28 WARN Database connection failed
+2026/03/26 17:34:29 INFO Server started on port 3000
+2026/03/26 17:34:30 INFO Server started on port 3000
+2026/03/26 17:34:31 WARN Server started on port 3000
+2026/03/26 17:34:32 WARN Database connection failed
+2026/03/26 17:34:33 ERROR Database connection failed
+2026/03/26 17:34:34 ERROR Database connection failed
+2026/03/26 17:34:35 INFO Database connection failed
+2026/03/26 17:34:36 INFO Database connection failed
+2026/03/26 17:34:37 WARN Database connection failed
+2026/03/26 17:34:38 WARN Server started on port 3000
+2026/03/26 17:34:39 ERROR Memory usage above 80%
+2026/03/26 17:34:40 ERROR Database connection failed
+2026/03/26 17:34:41 INFO Memory usage above 80%
+2026/03/26 17:34:42 INFO Memory usage above 80%
+2026/03/26 17:34:43 INFO Database connection failed
+2026/03/26 17:34:44 WARN Server started on port 3000
+2026/03/26 17:34:45 INFO Server started on port 3000
+2026/03/26 17:34:46 INFO Memory usage above 80%
+2026/03/26 17:34:47 ERROR Server started on port 3000
+2026/03/26 17:34:48 ERROR Server started on port 3000
+2026/03/26 17:34:49 ERROR Memory usage above 80%
+2026/03/26 17:34:50 INFO Database connection failed
+2026/03/26 17:34:51 INFO Database connection failed
+2026/03/26 17:34:52 WARN Database connection failed
+2026/03/26 17:34:53 INFO Server started on port 3000
+2026/03/26 17:34:54 ERROR Database connection failed
+2026/03/26 17:34:55 WARN Server started on port 3000
+2026/03/26 17:34:56 WARN Database connection failed
+2026/03/26 17:34:57 INFO Memory usage above 80%
+2026/03/26 17:34:58 ERROR Server started on port 3000
+2026/03/26 17:34:59 ERROR Memory usage above 80%
+2026/03/26 17:35:00 WARN Server started on port 3000
+2026/03/26 17:35:01 WARN Server started on port 3000
+2026/03/26 17:35:02 INFO Server started on port 3000
+2026/03/26 17:35:03 ERROR Database connection failed
+2026/03/26 17:35:04 ERROR Memory usage above 80%
+2026/03/26 17:35:05 WARN Server started on port 3000
+2026/03/26 17:35:06 WARN Server started on port 3000
+2026/03/26 17:35:07 WARN Memory usage above 80%
+2026/03/26 17:35:08 ERROR Memory usage above 80%
+2026/03/26 17:35:09 ERROR Memory usage above 80%
+2026/03/26 17:35:10 WARN Server started on port 3000
+2026/03/26 17:35:11 WARN Memory usage above 80%
+2026/03/26 17:35:12 ERROR Memory usage above 80%
+2026/03/26 17:35:13 WARN Server started on port 3000
+2026/03/26 17:35:14 ERROR Database connection failed
+2026/03/26 17:35:15 INFO Memory usage above 80%
+2026/03/26 17:35:16 ERROR Database connection failed
+2026/03/26 17:35:17 INFO Memory usage above 80%
+2026/03/26 17:35:18 WARN Database connection failed
+2026/03/26 17:35:19 INFO Database connection failed
+2026/03/26 17:35:20 INFO Server started on port 3000
+2026/03/26 17:35:21 INFO Memory usage above 80%
+2026/03/26 17:35:22 INFO Server started on port 3000
+2026/03/26 17:35:23 INFO Memory usage above 80%
+2026/03/26 17:35:24 INFO Memory usage above 80%
+2026/03/26 17:35:25 ERROR Database connection failed
+2026/03/26 17:35:26 WARN Server started on port 3000
+2026/03/26 17:35:27 ERROR Memory usage above 80%
+2026/03/26 17:35:28 ERROR Server started on port 3000
+2026/03/26 17:35:29 WARN Database connection failed
+2026/03/26 17:35:30 ERROR Database connection failed
+2026/03/26 17:35:31 ERROR Server started on port 3000
+2026/03/26 17:35:32 ERROR Memory usage above 80%
+2026/03/26 17:35:33 INFO Server started on port 3000
+2026/03/26 17:35:34 WARN Server started on port 3000
+2026/03/26 17:35:35 ERROR Memory usage above 80%
+2026/03/26 17:35:36 WARN Server started on port 3000
+2026/03/26 17:35:37 ERROR Database connection failed
+2026/03/26 17:35:38 WARN Memory usage above 80%
+2026/03/26 17:35:39 ERROR Database connection failed
+2026/03/26 17:35:40 WARN Database connection failed
+2026/03/26 17:35:41 WARN Server started on port 3000
+2026/03/26 17:35:42 INFO Memory usage above 80%
+2026/03/26 17:35:43 INFO Memory usage above 80%
+2026/03/26 17:35:44 ERROR Memory usage above 80%
+2026/03/26 17:35:45 INFO Memory usage above 80%
+2026/03/26 17:35:46 ERROR Memory usage above 80%
+2026/03/26 17:35:47 INFO Database connection failed
+2026/03/26 17:35:48 WARN Database connection failed
+2026/03/26 17:35:49 ERROR Database connection failed
+2026/03/26 17:35:50 ERROR Memory usage above 80%
+2026/03/26 17:35:51 INFO Database connection failed
+2026/03/26 17:35:52 ERROR Memory usage above 80%
+2026/03/26 17:35:53 ERROR Database connection failed
+2026/03/26 17:35:54 INFO Memory usage above 80%
+2026/03/26 17:35:55 INFO Database connection failed
+2026/03/26 17:35:56 ERROR Server started on port 3000
+2026/03/26 17:35:57 INFO Server started on port 3000
+2026/03/26 17:35:58 INFO Server started on port 3000
+2026/03/26 17:35:59 INFO Memory usage above 80%
+2026/03/26 17:36:00 INFO Database connection failed
+2026/03/26 17:36:01 INFO Database connection failed
+2026/03/26 17:36:02 ERROR Server started on port 3000
+2026/03/26 17:36:03 ERROR Server started on port 3000
+2026/03/26 17:36:04 ERROR Server started on port 3000
+2026/03/26 17:36:05 ERROR Server started on port 3000
+2026/03/26 17:36:06 INFO Database connection failed
+2026/03/26 17:36:07 INFO Server started on port 3000
+2026/03/26 17:36:08 INFO Server started on port 3000
+2026/03/26 17:36:09 ERROR Database connection failed
+2026/03/26 17:36:10 INFO Memory usage above 80%
+2026/03/26 17:36:11 INFO Database connection failed
+2026/03/26 17:36:12 INFO Memory usage above 80%
+2026/03/26 17:36:13 WARN Database connection failed
+2026/03/26 17:36:14 ERROR Memory usage above 80%
+2026/03/26 17:36:15 WARN Server started on port 3000
+2026/03/26 17:36:16 INFO Memory usage above 80%
+2026/03/26 17:36:17 ERROR Memory usage above 80%
+2026/03/26 17:36:18 INFO Memory usage above 80%
+2026/03/26 17:36:19 WARN Server started on port 3000
+2026/03/26 17:36:20 WARN Server started on port 3000
+2026/03/26 17:36:21 INFO Server started on port 3000
+2026/03/26 17:36:22 ERROR Database connection failed
+2026/03/26 17:36:23 WARN Database connection failed
+2026/03/26 17:36:24 ERROR Memory usage above 80%
+2026/03/26 17:36:25 WARN Memory usage above 80%
+2026/03/26 17:36:26 INFO Database connection failed
+2026/03/26 17:36:27 WARN Server started on port 3000
+2026/03/26 17:36:28 INFO Server started on port 3000
+2026/03/26 17:36:29 WARN Database connection failed
+2026/03/26 17:36:30 WARN Memory usage above 80%
+2026/03/26 17:36:31 ERROR Memory usage above 80%
+2026/03/26 17:36:32 INFO Memory usage above 80%
+2026/03/26 17:36:33 INFO Database connection failed
+2026/03/26 17:36:34 WARN Database connection failed
+2026/03/26 17:36:35 INFO Memory usage above 80%
+2026/03/26 17:36:36 WARN Server started on port 3000
+2026/03/26 17:36:37 INFO Database connection failed
+2026/03/26 17:36:38 INFO Memory usage above 80%
+2026/03/26 17:36:39 ERROR Server started on port 3000
+2026/03/26 17:36:40 INFO Memory usage above 80%
+2026/03/26 17:36:41 ERROR Database connection failed
+2026/03/26 17:36:42 WARN Database connection failed
+2026/03/26 17:36:43 INFO Server started on port 3000
+2026/03/26 17:36:44 INFO Database connection failed
+2026/03/26 17:36:45 ERROR Database connection failed
+2026/03/26 17:36:46 INFO Server started on port 3000
+2026/03/26 17:36:47 WARN Database connection failed
+2026/03/26 17:36:48 ERROR Server started on port 3000
+2026/03/26 17:36:49 INFO Server started on port 3000
+2026/03/26 17:36:50 WARN Memory usage above 80%
+2026/03/26 17:36:51 WARN Database connection failed
+2026/03/26 17:36:52 INFO Server started on port 3000
+2026/03/26 17:36:53 INFO Database connection failed
+2026/03/26 17:36:54 WARN Memory usage above 80%
+2026/03/26 17:36:55 ERROR Database connection failed
+2026/03/26 17:36:56 WARN Memory usage above 80%
+2026/03/26 17:36:57 WARN Database connection failed
+2026/03/26 17:36:58 WARN Database connection failed
+2026/03/26 17:36:59 WARN Database connection failed
+2026/03/26 17:37:00 ERROR Server started on port 3000
+2026/03/26 17:37:01 INFO Server started on port 3000
+2026/03/26 17:37:02 WARN Server started on port 3000
+2026/03/26 17:37:03 WARN Server started on port 3000
+2026/03/26 17:37:04 WARN Server started on port 3000
+2026/03/26 17:37:05 ERROR Server started on port 3000
+2026/03/26 17:37:06 ERROR Database connection failed
+2026/03/26 17:37:07 WARN Memory usage above 80%
+2026/03/26 17:37:08 INFO Server started on port 3000
+2026/03/26 17:37:09 ERROR Memory usage above 80%
+2026/03/26 17:37:10 WARN Server started on port 3000
+2026/03/26 17:37:11 INFO Memory usage above 80%
+2026/03/26 17:37:12 INFO Memory usage above 80%
+2026/03/26 17:37:13 WARN Database connection failed
+2026/03/26 17:37:14 ERROR Server started on port 3000
+2026/03/26 17:37:15 ERROR Server started on port 3000
+2026/03/26 17:37:16 INFO Memory usage above 80%
+2026/03/26 17:37:17 WARN Server started on port 3000
+2026/03/26 17:37:18 INFO Server started on port 3000
+2026/03/26 17:37:19 WARN Database connection failed
+2026/03/26 17:37:20 ERROR Server started on port 3000
+2026/03/26 17:37:21 ERROR Database connection failed
+2026/03/26 17:37:22 INFO Database connection failed
+2026/03/26 17:37:23 WARN Database connection failed
+2026/03/26 17:37:24 ERROR Memory usage above 80%
+2026/03/26 17:37:25 INFO Memory usage above 80%
+2026/03/26 17:37:26 ERROR Server started on port 3000
+2026/03/26 17:37:27 ERROR Memory usage above 80%
+2026/03/26 17:37:28 WARN Database connection failed
+2026/03/26 17:37:29 ERROR Database connection failed
+2026/03/26 17:37:30 INFO Database connection failed
+2026/03/26 17:37:31 WARN Memory usage above 80%
+2026/03/26 17:37:32 ERROR Database connection failed
+2026/03/26 17:37:33 WARN Database connection failed
+2026/03/26 17:37:34 ERROR Memory usage above 80%
+2026/03/26 17:37:35 WARN Database connection failed
+2026/03/26 17:37:36 WARN Database connection failed
+2026/03/26 17:37:37 ERROR Database connection failed
+2026/03/26 17:37:38 INFO Database connection failed
+2026/03/26 17:37:39 WARN Memory usage above 80%
+2026/03/26 17:37:40 ERROR Memory usage above 80%
+2026/03/26 17:37:41 WARN Server started on port 3000
+2026/03/26 17:37:42 WARN Server started on port 3000
+2026/03/26 17:37:43 INFO Server started on port 3000
+2026/03/26 17:37:44 WARN Database connection failed
+2026/03/26 17:37:45 INFO Server started on port 3000
+2026/03/26 17:37:46 INFO Memory usage above 80%
+2026/03/26 17:37:47 ERROR Memory usage above 80%
+2026/03/26 17:37:48 ERROR Server started on port 3000
+2026/03/26 17:37:49 INFO Server started on port 3000
+2026/03/26 17:37:50 ERROR Server started on port 3000
+2026/03/26 17:37:51 WARN Database connection failed
+2026/03/26 17:37:52 INFO Memory usage above 80%
+2026/03/26 17:37:53 WARN Server started on port 3000
+2026/03/26 17:37:54 ERROR Server started on port 3000
+2026/03/26 17:37:55 WARN Server started on port 3000
+2026/03/26 17:37:56 WARN Server started on port 3000
+2026/03/26 17:37:57 INFO Server started on port 3000
+2026/03/26 17:37:58 WARN Memory usage above 80%
+2026/03/26 17:37:59 INFO Memory usage above 80%
+2026/03/26 17:38:00 WARN Memory usage above 80%
+2026/03/26 17:38:01 ERROR Server started on port 3000
+2026/03/26 17:38:02 INFO Server started on port 3000
+2026/03/26 17:38:03 ERROR Memory usage above 80%
+2026/03/26 17:38:04 ERROR Server started on port 3000
+2026/03/26 17:38:05 WARN Server started on port 3000
+2026/03/26 17:38:06 ERROR Database connection failed
+2026/03/26 17:38:07 ERROR Server started on port 3000
+2026/03/26 17:38:08 ERROR Database connection failed
+2026/03/26 17:38:09 WARN Memory usage above 80%
+2026/03/26 17:38:10 WARN Database connection failed
+2026/03/26 17:38:11 ERROR Server started on port 3000
+2026/03/26 17:38:12 INFO Database connection failed
+2026/03/26 17:38:13 ERROR Memory usage above 80%
+2026/03/26 17:38:14 WARN Server started on port 3000
+2026/03/26 17:38:15 WARN Memory usage above 80%
+2026/03/26 17:38:16 ERROR Database connection failed
+2026/03/26 17:38:17 ERROR Database connection failed
+2026/03/26 17:38:18 ERROR Database connection failed
+2026/03/26 17:38:19 ERROR Database connection failed
+2026/03/26 17:38:20 ERROR Database connection failed
+2026/03/26 17:38:21 INFO Memory usage above 80%
+2026/03/26 17:38:22 INFO Server started on port 3000
+2026/03/26 17:38:23 ERROR Server started on port 3000
+2026/03/26 17:38:24 WARN Server started on port 3000
+2026/03/26 17:38:25 INFO Server started on port 3000
+2026/03/26 17:38:26 INFO Memory usage above 80%
+2026/03/26 17:38:27 INFO Memory usage above 80%
+2026/03/26 17:38:28 INFO Memory usage above 80%
+2026/03/26 17:38:29 ERROR Server started on port 3000
+2026/03/26 17:38:30 INFO Server started on port 3000
+2026/03/26 17:38:31 WARN Memory usage above 80%
+2026/03/26 17:38:32 INFO Server started on port 3000
+2026/03/26 17:38:33 ERROR Memory usage above 80%
+2026/03/26 17:38:34 INFO Database connection failed
+2026/03/26 17:38:35 WARN Database connection failed
+2026/03/26 17:38:36 INFO Server started on port 3000
+2026/03/26 17:38:37 ERROR Database connection failed
+2026/03/26 17:38:38 WARN Server started on port 3000
+2026/03/26 17:38:39 WARN Memory usage above 80%
+2026/03/26 17:38:40 INFO Database connection failed
+2026/03/26 17:38:41 INFO Server started on port 3000
+2026/03/26 17:38:42 WARN Database connection failed
+2026/03/26 17:38:43 INFO Database connection failed
+2026/03/26 17:38:44 INFO Database connection failed
+2026/03/26 17:38:45 WARN Memory usage above 80%
+2026/03/26 17:38:46 ERROR Memory usage above 80%
+2026/03/26 17:38:47 INFO Server started on port 3000
+2026/03/26 17:38:48 WARN Memory usage above 80%
+2026/03/26 17:38:49 INFO Database connection failed
+2026/03/26 17:38:50 WARN Memory usage above 80%
+2026/03/26 17:38:51 WARN Memory usage above 80%
+2026/03/26 17:38:52 WARN Server started on port 3000
+2026/03/26 17:38:53 WARN Server started on port 3000
+2026/03/26 17:38:54 INFO Database connection failed
+2026/03/26 17:38:55 WARN Database connection failed
+2026/03/26 17:38:56 WARN Database connection failed
+2026/03/26 17:38:57 WARN Memory usage above 80%
+2026/03/26 17:38:58 INFO Server started on port 3000
+2026/03/26 17:38:59 ERROR Memory usage above 80%
+2026/03/26 17:39:00 WARN Memory usage above 80%
+2026/03/26 17:39:01 WARN Server started on port 3000
+2026/03/26 17:39:02 INFO Memory usage above 80%
+2026/03/26 17:39:03 ERROR Database connection failed
+2026/03/26 17:39:04 WARN Server started on port 3000
+2026/03/26 17:39:05 ERROR Memory usage above 80%
+2026/03/26 17:39:06 ERROR Memory usage above 80%
+2026/03/26 17:39:07 INFO Server started on port 3000
+2026/03/26 17:39:08 WARN Memory usage above 80%
+2026/03/26 17:39:09 ERROR Memory usage above 80%
+2026/03/26 17:39:10 ERROR Database connection failed
+2026/03/26 17:39:11 ERROR Server started on port 3000
+2026/03/26 17:39:12 INFO Memory usage above 80%
+2026/03/26 17:39:13 ERROR Memory usage above 80%
+2026/03/26 17:39:14 WARN Database connection failed
+2026/03/26 17:39:15 ERROR Server started on port 3000
+2026/03/26 17:39:16 ERROR Memory usage above 80%
+2026/03/26 17:39:17 WARN Server started on port 3000
+2026/03/26 17:39:18 ERROR Database connection failed
+2026/03/26 17:39:19 WARN Database connection failed
+2026/03/26 17:39:20 INFO Database connection failed
+2026/03/26 17:39:21 WARN Server started on port 3000
+2026/03/26 17:39:22 INFO Server started on port 3000
+2026/03/26 17:39:23 INFO Database connection failed
+2026/03/26 17:39:24 WARN Database connection failed
+2026/03/26 17:39:25 INFO Memory usage above 80%
+2026/03/26 17:39:26 WARN Database connection failed
+2026/03/26 17:39:27 INFO Database connection failed
+2026/03/26 17:39:28 INFO Database connection failed
+2026/03/26 17:39:29 INFO Memory usage above 80%
+2026/03/26 17:39:30 ERROR Server started on port 3000
+2026/03/26 17:39:31 INFO Server started on port 3000
+2026/03/26 17:39:32 INFO Memory usage above 80%
+2026/03/26 17:39:33 INFO Memory usage above 80%
+2026/03/26 17:39:34 WARN Database connection failed
+2026/03/26 17:39:35 ERROR Memory usage above 80%
+2026/03/26 17:39:36 INFO Memory usage above 80%
+2026/03/26 17:39:37 WARN Server started on port 3000
+2026/03/26 17:39:38 INFO Server started on port 3000
+2026/03/26 17:39:39 INFO Database connection failed
+2026/03/26 17:39:40 WARN Memory usage above 80%
+2026/03/26 17:39:41 ERROR Server started on port 3000
+2026/03/26 17:39:42 ERROR Database connection failed
+2026/03/26 17:39:43 WARN Server started on port 3000
+2026/03/26 17:39:44 WARN Memory usage above 80%
+2026/03/26 17:39:45 ERROR Memory usage above 80%
+2026/03/26 17:39:46 WARN Memory usage above 80%
+2026/03/26 17:39:47 INFO Server started on port 3000
+2026/03/26 17:39:48 WARN Memory usage above 80%
+2026/03/26 17:39:49 WARN Server started on port 3000
+2026/03/26 17:39:50 WARN Database connection failed
+2026/03/26 17:39:51 INFO Memory usage above 80%
+2026/03/26 17:39:52 WARN Server started on port 3000
+2026/03/26 17:39:53 WARN Server started on port 3000
+2026/03/26 17:39:54 INFO Database connection failed
+2026/03/26 17:39:55 WARN Memory usage above 80%
+2026/03/26 17:39:56 INFO Server started on port 3000
+2026/03/26 17:39:57 ERROR Server started on port 3000
+2026/03/26 17:39:58 ERROR Memory usage above 80%
+2026/03/26 17:39:59 WARN Memory usage above 80%
+2026/03/26 17:40:00 WARN Database connection failed
+2026/03/26 17:40:01 WARN Memory usage above 80%
+2026/03/26 17:40:02 ERROR Server started on port 3000
+2026/03/26 17:40:03 ERROR Server started on port 3000
+2026/03/26 17:40:04 WARN Server started on port 3000
+2026/03/26 17:40:05 WARN Database connection failed
+2026/03/26 17:40:06 ERROR Database connection failed
+2026/03/26 17:40:07 ERROR Server started on port 3000
+2026/03/26 17:40:08 ERROR Server started on port 3000
+2026/03/26 17:40:09 WARN Memory usage above 80%
+2026/03/26 17:40:10 INFO Memory usage above 80%
+2026/03/26 17:40:11 ERROR Memory usage above 80%
+2026/03/26 17:40:12 INFO Memory usage above 80%
+2026/03/26 17:40:13 WARN Database connection failed
+2026/03/26 17:40:14 ERROR Memory usage above 80%
+2026/03/26 17:40:15 INFO Database connection failed
+2026/03/26 17:40:16 INFO Memory usage above 80%
+2026/03/26 17:40:17 ERROR Server started on port 3000
+2026/03/26 17:40:18 INFO Server started on port 3000
+2026/03/26 17:40:19 ERROR Server started on port 3000
+2026/03/26 17:40:20 INFO Server started on port 3000
+2026/03/26 17:40:21 WARN Server started on port 3000
+2026/03/26 17:40:22 INFO Memory usage above 80%
+2026/03/26 17:40:23 INFO Server started on port 3000
+2026/03/26 17:40:24 ERROR Server started on port 3000
+2026/03/26 17:40:25 ERROR Memory usage above 80%
+2026/03/26 17:40:26 INFO Server started on port 3000
+2026/03/26 17:40:27 INFO Server started on port 3000
+2026/03/26 17:40:28 ERROR Memory usage above 80%
+2026/03/26 17:40:29 INFO Memory usage above 80%
+2026/03/26 17:40:30 INFO Server started on port 3000
+2026/03/26 17:40:31 ERROR Server started on port 3000
+2026/03/26 17:40:32 INFO Memory usage above 80%
+2026/03/26 17:40:33 WARN Memory usage above 80%
+2026/03/26 17:40:34 INFO Memory usage above 80%
+2026/03/26 17:40:35 WARN Database connection failed
+2026/03/26 17:40:36 ERROR Database connection failed
+2026/03/26 17:40:37 ERROR Server started on port 3000
+2026/03/26 17:40:38 WARN Server started on port 3000
+2026/03/26 17:40:39 ERROR Memory usage above 80%
+2026/03/26 17:40:40 ERROR Memory usage above 80%
+2026/03/26 17:40:41 ERROR Database connection failed
+2026/03/26 17:40:42 ERROR Database connection failed
+2026/03/26 17:40:43 ERROR Database connection failed
+2026/03/26 17:40:44 ERROR Database connection failed
+2026/03/26 17:40:45 ERROR Server started on port 3000
+2026/03/26 17:40:46 ERROR Memory usage above 80%
+2026/03/26 17:40:47 WARN Memory usage above 80%
+2026/03/26 17:40:48 WARN Database connection failed
+2026/03/26 17:40:49 ERROR Memory usage above 80%
+2026/03/26 17:40:50 INFO Server started on port 3000
+2026/03/26 17:40:51 ERROR Memory usage above 80%
+2026/03/26 17:40:52 WARN Server started on port 3000
+2026/03/26 17:40:53 ERROR Database connection failed
+2026/03/26 17:40:54 ERROR Database connection failed
+2026/03/26 17:40:55 ERROR Memory usage above 80%
+2026/03/26 17:40:56 WARN Database connection failed
+2026/03/26 17:40:57 ERROR Server started on port 3000
+2026/03/26 17:40:58 WARN Server started on port 3000
+2026/03/26 17:40:59 INFO Database connection failed
+2026/03/26 17:41:00 WARN Database connection failed
+2026/03/26 17:41:01 ERROR Server started on port 3000
+2026/03/26 17:41:02 WARN Server started on port 3000
+2026/03/26 17:41:03 INFO Server started on port 3000
+2026/03/26 17:41:04 INFO Memory usage above 80%
+2026/03/26 17:41:05 WARN Database connection failed
+2026/03/26 17:41:06 ERROR Server started on port 3000
+2026/03/26 17:41:07 ERROR Database connection failed
+2026/03/26 17:41:08 WARN Server started on port 3000
+2026/03/26 17:41:09 WARN Server started on port 3000
+2026/03/26 17:41:10 ERROR Database connection failed
+2026/03/26 17:41:11 ERROR Memory usage above 80%
+2026/03/26 17:41:12 ERROR Database connection failed
+2026/03/26 17:41:13 ERROR Memory usage above 80%
+2026/03/26 17:41:14 ERROR Memory usage above 80%
+2026/03/26 17:41:15 ERROR Server started on port 3000
+2026/03/26 17:41:16 INFO Memory usage above 80%
+2026/03/26 17:41:17 INFO Database connection failed
+2026/03/26 17:41:18 INFO Database connection failed
+2026/03/26 17:41:19 ERROR Server started on port 3000
+2026/03/26 17:41:20 ERROR Server started on port 3000
+2026/03/26 17:41:21 ERROR Server started on port 3000
+2026/03/26 17:41:22 WARN Server started on port 3000
+2026/03/26 17:41:23 WARN Database connection failed
+2026/03/26 17:41:24 ERROR Database connection failed
+2026/03/26 17:41:25 INFO Database connection failed
+2026/03/26 17:41:26 ERROR Memory usage above 80%
+2026/03/26 17:41:27 INFO Database connection failed
+2026/03/26 17:41:28 INFO Memory usage above 80%
+2026/03/26 17:41:29 ERROR Database connection failed
+2026/03/26 17:41:30 INFO Server started on port 3000
+2026/03/26 17:41:31 ERROR Server started on port 3000
+2026/03/26 17:41:32 WARN Memory usage above 80%
+2026/03/26 17:41:33 WARN Server started on port 3000
+2026/03/26 17:41:34 INFO Server started on port 3000
+2026/03/26 17:41:35 ERROR Memory usage above 80%
+2026/03/26 17:41:36 WARN Memory usage above 80%
+2026/03/26 17:41:37 ERROR Server started on port 3000
+2026/03/26 17:41:38 INFO Database connection failed
+2026/03/26 17:41:39 ERROR Database connection failed
+2026/03/26 17:41:40 INFO Database connection failed
+2026/03/26 17:41:41 ERROR Memory usage above 80%
+2026/03/26 17:41:42 INFO Database connection failed
+2026/03/26 17:41:43 ERROR Server started on port 3000
+2026/03/26 17:41:44 WARN Memory usage above 80%
+2026/03/26 17:41:45 ERROR Memory usage above 80%
+2026/03/26 17:41:46 WARN Server started on port 3000
+2026/03/26 17:41:47 INFO Database connection failed
+2026/03/26 17:41:48 WARN Database connection failed
+2026/03/26 17:41:49 WARN Database connection failed
+2026/03/26 17:41:50 WARN Memory usage above 80%
+2026/03/26 17:41:51 INFO Memory usage above 80%
+2026/03/26 17:41:52 INFO Server started on port 3000
+2026/03/26 17:41:53 WARN Server started on port 3000
+2026/03/26 17:41:54 WARN Memory usage above 80%
+2026/03/26 17:41:55 ERROR Server started on port 3000
+2026/03/26 17:41:56 ERROR Database connection failed
+2026/03/26 17:41:57 WARN Server started on port 3000
+2026/03/26 17:41:58 ERROR Memory usage above 80%
+2026/03/26 17:41:59 ERROR Memory usage above 80%
+2026/03/26 17:42:00 ERROR Server started on port 3000
+2026/03/26 17:42:01 ERROR Memory usage above 80%
+2026/03/26 17:42:02 ERROR Database connection failed
+2026/03/26 17:42:03 INFO Memory usage above 80%
+2026/03/26 17:42:04 ERROR Server started on port 3000
+2026/03/26 17:42:05 WARN Server started on port 3000
+2026/03/26 17:42:06 ERROR Memory usage above 80%
+2026/03/26 17:42:07 WARN Memory usage above 80%
+2026/03/26 17:42:08 WARN Database connection failed
+2026/03/26 17:42:09 ERROR Database connection failed
+2026/03/26 17:42:10 INFO Server started on port 3000
+2026/03/26 17:42:11 ERROR Database connection failed
+2026/03/26 17:42:12 ERROR Database connection failed
+2026/03/26 17:42:13 WARN Memory usage above 80%
+2026/03/26 17:42:14 INFO Database connection failed
+2026/03/26 17:42:15 ERROR Memory usage above 80%
+2026/03/26 17:42:16 WARN Database connection failed
+2026/03/26 17:42:17 INFO Memory usage above 80%
+2026/03/26 17:42:18 ERROR Database connection failed
+2026/03/26 17:42:19 INFO Memory usage above 80%
+2026/03/26 17:42:20 INFO Database connection failed
+2026/03/26 17:42:21 WARN Database connection failed
+2026/03/26 17:42:22 INFO Server started on port 3000
+2026/03/26 17:42:23 INFO Server started on port 3000
+2026/03/26 17:42:24 ERROR Server started on port 3000
+2026/03/26 17:42:25 INFO Database connection failed
+2026/03/26 17:42:26 WARN Database connection failed
+2026/03/26 17:42:27 ERROR Memory usage above 80%
+2026/03/26 17:42:28 ERROR Database connection failed
+2026/03/26 17:42:29 ERROR Database connection failed
+2026/03/26 17:42:30 INFO Server started on port 3000
+2026/03/26 17:42:31 INFO Server started on port 3000
+2026/03/26 17:42:32 ERROR Database connection failed
+2026/03/26 17:42:33 WARN Server started on port 3000
+2026/03/26 17:42:34 ERROR Database connection failed
+2026/03/26 17:42:35 ERROR Database connection failed
+2026/03/26 17:42:36 INFO Database connection failed
+2026/03/26 17:42:37 ERROR Database connection failed
+2026/03/26 17:42:38 WARN Server started on port 3000
+2026/03/26 17:42:39 INFO Database connection failed
+2026/03/26 17:42:40 ERROR Server started on port 3000
+2026/03/26 17:42:41 WARN Database connection failed
+2026/03/26 17:42:42 ERROR Memory usage above 80%
+2026/03/26 17:42:43 ERROR Server started on port 3000
+2026/03/26 17:42:44 WARN Memory usage above 80%
+2026/03/26 17:42:45 INFO Memory usage above 80%
+2026/03/26 17:42:46 INFO Database connection failed
+2026/03/26 17:42:47 WARN Server started on port 3000
+2026/03/26 17:42:48 INFO Memory usage above 80%
+2026/03/26 17:42:49 WARN Database connection failed
+2026/03/26 17:42:50 INFO Database connection failed
+2026/03/26 17:42:51 ERROR Server started on port 3000
+2026/03/26 17:42:52 INFO Memory usage above 80%
+2026/03/26 17:42:53 INFO Memory usage above 80%
+2026/03/26 17:42:54 INFO Server started on port 3000
+2026/03/26 17:42:55 INFO Database connection failed
+2026/03/26 17:42:56 ERROR Database connection failed
+2026/03/26 17:42:57 INFO Database connection failed
+2026/03/26 17:42:58 ERROR Memory usage above 80%
+2026/03/26 17:42:59 WARN Server started on port 3000
+2026/03/26 17:43:00 INFO Database connection failed
+2026/03/26 17:43:01 INFO Memory usage above 80%
+2026/03/26 17:43:02 WARN Database connection failed
+2026/03/26 17:43:03 INFO Memory usage above 80%
+2026/03/26 17:43:04 WARN Memory usage above 80%
+2026/03/26 17:43:05 ERROR Server started on port 3000
+2026/03/26 17:43:06 ERROR Server started on port 3000
+2026/03/26 17:43:07 INFO Memory usage above 80%
+2026/03/26 17:43:08 ERROR Server started on port 3000
+2026/03/26 17:43:09 INFO Memory usage above 80%
+2026/03/26 17:43:10 WARN Memory usage above 80%
+2026/03/26 17:43:11 ERROR Server started on port 3000
+2026/03/26 17:43:12 WARN Memory usage above 80%
+2026/03/26 17:43:13 INFO Server started on port 3000
+2026/03/26 17:43:14 ERROR Memory usage above 80%
+2026/03/26 17:43:15 INFO Server started on port 3000
+2026/03/26 17:43:16 ERROR Memory usage above 80%
+2026/03/26 17:43:17 WARN Server started on port 3000
+2026/03/26 17:43:18 INFO Database connection failed
+2026/03/26 17:43:19 INFO Server started on port 3000
+2026/03/26 17:43:20 INFO Memory usage above 80%
+2026/03/26 17:43:21 INFO Database connection failed
+2026/03/26 17:43:22 WARN Server started on port 3000
+2026/03/26 17:43:23 INFO Memory usage above 80%
+2026/03/26 17:43:24 ERROR Memory usage above 80%
+2026/03/26 17:43:25 ERROR Server started on port 3000
+2026/03/26 17:43:26 INFO Memory usage above 80%
+2026/03/26 17:43:27 WARN Memory usage above 80%
+2026/03/26 17:43:28 INFO Database connection failed
+2026/03/26 17:43:29 INFO Memory usage above 80%
+2026/03/26 17:43:30 INFO Memory usage above 80%
+2026/03/26 17:43:31 WARN Memory usage above 80%
+2026/03/26 17:43:32 WARN Memory usage above 80%
+2026/03/26 17:43:33 ERROR Server started on port 3000
+2026/03/26 17:43:34 INFO Server started on port 3000
+2026/03/26 17:43:35 WARN Database connection failed
+2026/03/26 17:43:36 WARN Server started on port 3000
+2026/03/26 17:43:37 ERROR Server started on port 3000
+2026/03/26 17:43:38 INFO Database connection failed
+2026/03/26 17:43:39 WARN Database connection failed
+2026/03/26 17:43:40 ERROR Database connection failed
+2026/03/26 17:43:41 WARN Memory usage above 80%
+2026/03/26 17:43:42 WARN Server started on port 3000
+2026/03/26 17:43:43 WARN Server started on port 3000
+2026/03/26 17:43:44 WARN Server started on port 3000
+2026/03/26 17:43:45 ERROR Database connection failed
+2026/03/26 17:43:46 WARN Server started on port 3000
+2026/03/26 17:43:47 WARN Memory usage above 80%
+2026/03/26 17:43:48 ERROR Server started on port 3000
+2026/03/26 17:43:49 ERROR Database connection failed
+2026/03/26 17:43:50 ERROR Server started on port 3000
+2026/03/26 17:43:51 ERROR Memory usage above 80%
+2026/03/26 17:43:52 WARN Server started on port 3000
+2026/03/26 17:43:53 ERROR Memory usage above 80%
+2026/03/26 17:43:54 INFO Memory usage above 80%
+2026/03/26 17:43:55 ERROR Memory usage above 80%
+2026/03/26 17:43:56 WARN Memory usage above 80%
+2026/03/26 17:43:57 ERROR Memory usage above 80%
+2026/03/26 17:43:58 INFO Server started on port 3000
+2026/03/26 17:43:59 INFO Database connection failed
+2026/03/26 17:44:00 WARN Server started on port 3000
+2026/03/26 17:44:01 ERROR Database connection failed
+2026/03/26 17:44:02 INFO Database connection failed
+2026/03/26 17:44:03 INFO Database connection failed
+2026/03/26 17:44:04 INFO Database connection failed
+2026/03/26 17:44:05 INFO Memory usage above 80%
+2026/03/26 17:44:06 WARN Memory usage above 80%
+2026/03/26 17:44:07 INFO Memory usage above 80%
+2026/03/26 17:44:08 WARN Memory usage above 80%
+2026/03/26 17:44:09 INFO Memory usage above 80%
+2026/03/26 17:44:10 INFO Server started on port 3000
+2026/03/26 17:44:11 ERROR Server started on port 3000
+2026/03/26 17:44:12 ERROR Database connection failed
+2026/03/26 17:44:13 ERROR Memory usage above 80%
+2026/03/26 17:44:14 INFO Memory usage above 80%
+2026/03/26 17:44:15 ERROR Memory usage above 80%
+2026/03/26 17:44:16 ERROR Server started on port 3000
+2026/03/26 17:44:17 INFO Server started on port 3000
+2026/03/26 17:44:18 ERROR Memory usage above 80%
+2026/03/26 17:44:19 ERROR Memory usage above 80%
+2026/03/26 17:44:20 INFO Server started on port 3000
+2026/03/26 17:44:21 INFO Server started on port 3000
+2026/03/26 17:44:22 WARN Server started on port 3000
+2026/03/26 17:44:23 ERROR Memory usage above 80%
+2026/03/26 17:44:24 INFO Memory usage above 80%
+2026/03/26 17:44:25 ERROR Memory usage above 80%
+2026/03/26 17:44:26 ERROR Server started on port 3000
+2026/03/26 17:44:27 INFO Database connection failed
+2026/03/26 17:44:28 INFO Server started on port 3000
+2026/03/26 17:44:29 INFO Database connection failed
+2026/03/26 17:44:30 WARN Memory usage above 80%
+2026/03/26 17:44:31 INFO Memory usage above 80%
+2026/03/26 17:44:32 INFO Database connection failed
+2026/03/26 17:44:33 INFO Database connection failed
+2026/03/26 17:44:34 INFO Server started on port 3000
+2026/03/26 17:44:35 INFO Server started on port 3000
+2026/03/26 17:44:36 INFO Server started on port 3000
+2026/03/26 17:44:37 INFO Server started on port 3000
+2026/03/26 17:44:38 INFO Server started on port 3000
+2026/03/26 17:44:39 INFO Server started on port 3000
+2026/03/26 17:44:40 WARN Server started on port 3000
+2026/03/26 17:44:41 ERROR Memory usage above 80%
+2026/03/26 17:44:42 INFO Database connection failed
+2026/03/26 17:44:43 WARN Server started on port 3000
+2026/03/26 17:44:44 WARN Memory usage above 80%
+2026/03/26 17:44:45 INFO Server started on port 3000
+2026/03/26 17:44:46 WARN Memory usage above 80%
+2026/03/26 17:44:47 INFO Database connection failed
+2026/03/26 17:44:48 INFO Memory usage above 80%
+2026/03/26 17:44:49 INFO Server started on port 3000
+2026/03/26 17:44:50 WARN Database connection failed
+2026/03/26 17:44:51 ERROR Memory usage above 80%
+2026/03/26 17:44:52 WARN Memory usage above 80%
+2026/03/26 17:44:53 ERROR Memory usage above 80%
+2026/03/26 17:44:54 INFO Database connection failed
+2026/03/26 17:44:55 INFO Database connection failed
+2026/03/26 17:44:56 WARN Server started on port 3000
+2026/03/26 17:44:57 WARN Memory usage above 80%
+2026/03/26 17:44:58 ERROR Server started on port 3000
+2026/03/26 17:44:59 INFO Database connection failed
+2026/03/26 17:45:00 INFO Memory usage above 80%
+2026/03/26 17:45:01 WARN Server started on port 3000
+2026/03/26 17:45:02 WARN Server started on port 3000
+2026/03/26 17:45:03 ERROR Memory usage above 80%
+2026/03/26 17:45:04 ERROR Memory usage above 80%
+2026/03/26 17:45:05 ERROR Database connection failed
+2026/03/26 17:45:06 WARN Server started on port 3000
+2026/03/26 17:45:07 INFO Database connection failed
+2026/03/26 17:45:08 INFO Server started on port 3000
+2026/03/26 17:45:09 WARN Server started on port 3000
+2026/03/26 17:45:10 ERROR Database connection failed
+2026/03/26 17:45:11 ERROR Database connection failed
+2026/03/26 17:45:12 INFO Database connection failed
+2026/03/26 17:45:13 WARN Memory usage above 80%
+2026/03/26 17:45:14 WARN Database connection failed
+2026/03/26 17:45:15 ERROR Memory usage above 80%
+2026/03/26 17:45:16 ERROR Server started on port 3000
+2026/03/26 17:45:17 INFO Memory usage above 80%
+2026/03/26 17:45:18 ERROR Server started on port 3000
+2026/03/26 17:45:19 INFO Memory usage above 80%
+2026/03/26 17:45:20 WARN Database connection failed
+2026/03/26 17:45:21 INFO Memory usage above 80%
+2026/03/26 17:45:22 INFO Server started on port 3000
+2026/03/26 17:45:23 WARN Database connection failed
+2026/03/26 17:45:24 WARN Server started on port 3000
+2026/03/26 17:45:25 INFO Database connection failed
+2026/03/26 17:45:26 WARN Memory usage above 80%
+2026/03/26 17:45:27 INFO Memory usage above 80%
+2026/03/26 17:45:28 ERROR Server started on port 3000
+2026/03/26 17:45:29 INFO Database connection failed
+2026/03/26 17:45:30 ERROR Database connection failed
+2026/03/26 17:45:31 WARN Server started on port 3000
+2026/03/26 17:45:32 INFO Database connection failed
+2026/03/26 17:45:33 INFO Server started on port 3000
+2026/03/26 17:45:34 ERROR Server started on port 3000
+2026/03/26 17:45:35 ERROR Memory usage above 80%
+2026/03/26 17:45:36 ERROR Memory usage above 80%
+2026/03/26 17:45:37 WARN Database connection failed
+2026/03/26 17:45:38 WARN Database connection failed
+2026/03/26 17:45:39 INFO Database connection failed
+2026/03/26 17:45:40 WARN Memory usage above 80%
+2026/03/26 17:45:41 WARN Memory usage above 80%
+2026/03/26 17:45:42 INFO Memory usage above 80%
+2026/03/26 17:45:43 INFO Memory usage above 80%
+2026/03/26 17:45:44 WARN Server started on port 3000
+2026/03/26 17:45:45 INFO Database connection failed
+2026/03/26 17:45:46 WARN Memory usage above 80%
+2026/03/26 17:45:47 WARN Memory usage above 80%
+2026/03/26 17:45:48 ERROR Database connection failed
+2026/03/26 17:45:49 WARN Database connection failed
+2026/03/26 17:45:50 INFO Database connection failed
+2026/03/26 17:45:51 WARN Server started on port 3000
+2026/03/26 17:45:52 INFO Server started on port 3000
+2026/03/26 17:45:53 WARN Server started on port 3000
+2026/03/26 17:45:54 INFO Memory usage above 80%
+2026/03/26 17:45:55 INFO Server started on port 3000
+2026/03/26 17:45:56 WARN Memory usage above 80%
+2026/03/26 17:45:57 ERROR Database connection failed
+2026/03/26 17:45:58 ERROR Memory usage above 80%
+2026/03/26 17:45:59 WARN Server started on port 3000
+2026/03/26 17:46:00 ERROR Database connection failed
+2026/03/26 17:46:01 ERROR Server started on port 3000
+2026/03/26 17:46:02 ERROR Database connection failed
+2026/03/26 17:46:03 ERROR Database connection failed
+2026/03/26 17:46:04 INFO Memory usage above 80%
+2026/03/26 17:46:05 INFO Server started on port 3000
+2026/03/26 17:46:06 INFO Database connection failed
+2026/03/26 17:46:07 WARN Memory usage above 80%
+2026/03/26 17:46:08 WARN Server started on port 3000
+2026/03/26 17:46:09 WARN Memory usage above 80%
+2026/03/26 17:46:10 INFO Memory usage above 80%
+2026/03/26 17:46:11 WARN Database connection failed
+2026/03/26 17:46:12 ERROR Memory usage above 80%
+2026/03/26 17:46:13 ERROR Memory usage above 80%
+2026/03/26 17:46:14 ERROR Database connection failed
+2026/03/26 17:46:15 ERROR Database connection failed
+2026/03/26 17:46:16 WARN Memory usage above 80%
+2026/03/26 17:46:17 INFO Server started on port 3000
+2026/03/26 17:46:18 INFO Database connection failed
+2026/03/26 17:46:19 WARN Memory usage above 80%
+2026/03/26 17:46:20 WARN Memory usage above 80%
+2026/03/26 17:46:21 INFO Database connection failed
+2026/03/26 17:46:22 INFO Database connection failed
+2026/03/26 17:46:23 ERROR Server started on port 3000
+2026/03/26 17:46:24 WARN Memory usage above 80%
+2026/03/26 17:46:25 WARN Server started on port 3000
+2026/03/26 17:46:26 INFO Memory usage above 80%
+2026/03/26 17:46:27 INFO Memory usage above 80%
+2026/03/26 17:46:28 WARN Database connection failed
+2026/03/26 17:46:29 ERROR Memory usage above 80%
+2026/03/26 17:46:30 ERROR Memory usage above 80%
+2026/03/26 17:46:31 WARN Memory usage above 80%
+2026/03/26 17:46:32 ERROR Server started on port 3000
+2026/03/26 17:46:33 INFO Memory usage above 80%
+2026/03/26 17:46:34 INFO Server started on port 3000
+2026/03/26 17:46:35 INFO Database connection failed
+2026/03/26 17:46:36 ERROR Memory usage above 80%
+2026/03/26 17:46:37 WARN Database connection failed
+2026/03/26 17:46:38 WARN Server started on port 3000
+2026/03/26 17:46:39 INFO Memory usage above 80%
+2026/03/26 17:46:40 INFO Memory usage above 80%
+2026/03/26 17:46:41 WARN Memory usage above 80%
+2026/03/26 17:46:42 ERROR Database connection failed
+2026/03/26 17:46:43 ERROR Database connection failed
+2026/03/26 17:46:44 INFO Memory usage above 80%
+2026/03/26 17:46:45 WARN Server started on port 3000
+2026/03/26 17:46:46 WARN Database connection failed
+2026/03/26 17:46:47 INFO Memory usage above 80%
+2026/03/26 17:46:48 WARN Memory usage above 80%
+2026/03/26 17:46:49 INFO Server started on port 3000
+2026/03/26 17:46:50 INFO Server started on port 3000
+2026/03/26 17:46:51 WARN Server started on port 3000
+2026/03/26 17:46:52 INFO Database connection failed
+2026/03/26 17:46:53 ERROR Memory usage above 80%
+2026/03/26 17:46:54 ERROR Memory usage above 80%
+2026/03/26 17:46:55 INFO Server started on port 3000
+2026/03/26 17:46:56 INFO Database connection failed
+2026/03/26 17:46:57 INFO Server started on port 3000
+2026/03/26 17:46:58 ERROR Database connection failed
+2026/03/26 17:46:59 WARN Memory usage above 80%
+2026/03/26 17:47:00 INFO Server started on port 3000
+2026/03/26 17:47:01 WARN Database connection failed
+2026/03/26 17:47:02 INFO Server started on port 3000
+2026/03/26 17:47:03 ERROR Database connection failed
+2026/03/26 17:47:04 INFO Memory usage above 80%
+2026/03/26 17:47:05 ERROR Memory usage above 80%
+2026/03/26 17:47:06 ERROR Server started on port 3000
+2026/03/26 17:47:07 ERROR Memory usage above 80%
+2026/03/26 17:47:08 WARN Database connection failed
+2026/03/26 17:47:09 INFO Server started on port 3000
+2026/03/26 17:47:10 ERROR Database connection failed
+2026/03/26 17:47:11 INFO Server started on port 3000
+2026/03/26 17:47:12 WARN Database connection failed
+2026/03/26 17:47:13 INFO Memory usage above 80%
+2026/03/26 17:47:14 INFO Database connection failed
+2026/03/26 17:47:15 WARN Database connection failed
+2026/03/26 17:47:16 WARN Database connection failed
+2026/03/26 17:47:17 INFO Server started on port 3000
+2026/03/26 17:47:18 ERROR Server started on port 3000
+2026/03/26 17:47:19 ERROR Database connection failed
+2026/03/26 17:47:20 INFO Memory usage above 80%
+2026/03/26 17:47:21 ERROR Database connection failed
+2026/03/26 17:47:22 INFO Database connection failed
+2026/03/26 17:47:23 ERROR Memory usage above 80%
+2026/03/26 17:47:24 INFO Server started on port 3000
+2026/03/26 17:47:25 ERROR Memory usage above 80%
+2026/03/26 17:47:26 WARN Server started on port 3000
+2026/03/26 17:47:27 WARN Database connection failed
+2026/03/26 17:47:28 INFO Database connection failed
+2026/03/26 17:47:29 INFO Memory usage above 80%
+2026/03/26 17:47:30 INFO Server started on port 3000
+2026/03/26 17:47:31 INFO Database connection failed
+2026/03/26 17:47:32 ERROR Memory usage above 80%
+2026/03/26 17:47:33 WARN Database connection failed
+2026/03/26 17:47:34 INFO Database connection failed
+2026/03/26 17:47:35 ERROR Database connection failed
+2026/03/26 17:47:36 ERROR Database connection failed
+2026/03/26 17:47:37 WARN Server started on port 3000
+2026/03/26 17:47:38 WARN Server started on port 3000
+2026/03/26 17:47:39 WARN Memory usage above 80%
+2026/03/26 17:47:40 ERROR Database connection failed
+2026/03/26 17:47:41 INFO Server started on port 3000
+2026/03/26 17:47:42 ERROR Database connection failed
+2026/03/26 17:47:43 WARN Memory usage above 80%
+2026/03/26 17:47:44 ERROR Server started on port 3000
+2026/03/26 17:47:45 WARN Server started on port 3000
+2026/03/26 17:47:46 INFO Memory usage above 80%
+2026/03/26 17:47:47 ERROR Memory usage above 80%
+2026/03/26 17:47:48 WARN Database connection failed
+2026/03/26 17:47:49 INFO Memory usage above 80%
+2026/03/26 17:47:50 INFO Database connection failed
+2026/03/26 17:47:51 ERROR Server started on port 3000
+2026/03/26 17:47:52 INFO Memory usage above 80%
+2026/03/26 17:47:53 ERROR Memory usage above 80%
+2026/03/26 17:47:54 INFO Memory usage above 80%
+2026/03/26 17:47:55 WARN Server started on port 3000
+2026/03/26 17:47:56 WARN Memory usage above 80%
+2026/03/26 17:47:57 ERROR Database connection failed
+2026/03/26 17:47:58 INFO Memory usage above 80%
+2026/03/26 17:47:59 ERROR Database connection failed
+2026/03/26 17:48:00 WARN Server started on port 3000
+2026/03/26 17:48:01 ERROR Server started on port 3000
+2026/03/26 17:48:02 WARN Server started on port 3000
+2026/03/26 17:48:03 INFO Server started on port 3000
+2026/03/26 17:48:04 WARN Server started on port 3000
+2026/03/26 17:48:05 WARN Database connection failed
+2026/03/26 17:48:06 ERROR Memory usage above 80%
+2026/03/26 17:48:07 ERROR Memory usage above 80%
+2026/03/26 17:48:08 ERROR Server started on port 3000
+2026/03/26 17:48:09 ERROR Memory usage above 80%
+2026/03/26 17:48:10 INFO Memory usage above 80%
+2026/03/26 17:48:11 INFO Server started on port 3000
+2026/03/26 17:48:12 ERROR Database connection failed
+2026/03/26 17:48:13 INFO Database connection failed
+2026/03/26 17:48:14 WARN Memory usage above 80%
+2026/03/26 17:48:15 WARN Memory usage above 80%
+2026/03/26 17:48:16 WARN Server started on port 3000
+2026/03/26 17:48:17 WARN Server started on port 3000
+2026/03/26 17:48:18 ERROR Server started on port 3000
+2026/03/26 17:48:19 INFO Server started on port 3000
+2026/03/26 17:48:20 WARN Server started on port 3000
+2026/03/26 17:48:21 INFO Server started on port 3000
+2026/03/26 17:48:22 INFO Memory usage above 80%
+2026/03/26 17:48:23 ERROR Server started on port 3000
+2026/03/26 17:48:24 WARN Memory usage above 80%
+2026/03/26 17:48:25 INFO Memory usage above 80%
+2026/03/26 17:48:26 INFO Memory usage above 80%
+2026/03/26 17:48:27 INFO Server started on port 3000
+2026/03/26 17:48:28 WARN Server started on port 3000
+2026/03/26 17:48:29 ERROR Database connection failed
+2026/03/26 17:48:30 ERROR Memory usage above 80%
+2026/03/26 17:48:31 ERROR Server started on port 3000
+2026/03/26 17:48:32 ERROR Server started on port 3000
+2026/03/26 17:48:33 INFO Memory usage above 80%
+2026/03/26 17:48:34 INFO Memory usage above 80%
+2026/03/26 17:48:35 INFO Memory usage above 80%
+2026/03/26 17:48:36 INFO Memory usage above 80%
+2026/03/26 17:48:37 WARN Database connection failed
+2026/03/26 17:48:38 ERROR Server started on port 3000
+2026/03/26 17:48:39 INFO Memory usage above 80%
+2026/03/26 17:48:40 INFO Database connection failed
+2026/03/26 17:48:41 WARN Server started on port 3000
+2026/03/26 17:48:42 WARN Server started on port 3000
+2026/03/26 17:48:43 ERROR Server started on port 3000
+2026/03/26 17:48:44 ERROR Memory usage above 80%
+2026/03/26 17:48:45 ERROR Database connection failed
+2026/03/26 17:48:46 WARN Database connection failed
+2026/03/26 17:48:47 ERROR Database connection failed
+2026/03/26 17:48:48 INFO Server started on port 3000
+2026/03/26 17:48:49 WARN Database connection failed
+2026/03/26 17:48:50 ERROR Database connection failed
+2026/03/26 17:48:51 WARN Server started on port 3000
+2026/03/26 17:48:52 ERROR Memory usage above 80%
+2026/03/26 17:48:53 ERROR Memory usage above 80%
+2026/03/26 17:48:54 INFO Memory usage above 80%
+2026/03/26 17:48:55 INFO Memory usage above 80%
+2026/03/26 17:48:56 WARN Database connection failed
+2026/03/26 17:48:57 INFO Memory usage above 80%
+2026/03/26 17:48:58 ERROR Server started on port 3000
+2026/03/26 17:48:59 ERROR Server started on port 3000
+2026/03/26 17:49:00 ERROR Database connection failed
+2026/03/26 17:49:01 WARN Database connection failed
+2026/03/26 17:49:02 ERROR Database connection failed
+2026/03/26 17:49:03 ERROR Memory usage above 80%
+2026/03/26 17:49:04 ERROR Database connection failed
+2026/03/26 17:49:05 INFO Server started on port 3000
+2026/03/26 17:49:06 ERROR Database connection failed
+2026/03/26 17:49:07 ERROR Memory usage above 80%
+2026/03/26 17:49:08 INFO Server started on port 3000
+2026/03/26 17:49:09 ERROR Memory usage above 80%
+2026/03/26 17:49:10 WARN Memory usage above 80%
+2026/03/26 17:49:11 INFO Database connection failed
+2026/03/26 17:49:12 ERROR Memory usage above 80%
+2026/03/26 17:49:13 WARN Server started on port 3000
+2026/03/26 17:49:14 WARN Memory usage above 80%
+2026/03/26 17:49:15 WARN Server started on port 3000
+2026/03/26 17:49:16 WARN Memory usage above 80%
+2026/03/26 17:49:17 ERROR Server started on port 3000
+2026/03/26 17:49:18 WARN Server started on port 3000
+2026/03/26 17:49:19 WARN Memory usage above 80%
+2026/03/26 17:49:20 INFO Database connection failed
+2026/03/26 17:49:21 ERROR Memory usage above 80%
+2026/03/26 17:49:22 ERROR Server started on port 3000
+2026/03/26 17:49:23 WARN Memory usage above 80%
+2026/03/26 17:49:24 INFO Database connection failed
+2026/03/26 17:49:25 INFO Memory usage above 80%
+2026/03/26 17:49:26 ERROR Server started on port 3000
+2026/03/26 17:49:27 INFO Server started on port 3000
+2026/03/26 17:49:28 ERROR Database connection failed
+2026/03/26 17:49:29 WARN Server started on port 3000
+2026/03/26 17:49:30 ERROR Database connection failed
+2026/03/26 17:49:31 INFO Server started on port 3000
+2026/03/26 17:49:32 ERROR Memory usage above 80%
+2026/03/26 17:49:33 INFO Memory usage above 80%
+2026/03/26 17:49:34 WARN Database connection failed
+2026/03/26 17:49:35 INFO Memory usage above 80%
+2026/03/26 17:49:36 WARN Database connection failed
+2026/03/26 17:49:37 WARN Database connection failed
+2026/03/26 17:49:38 ERROR Server started on port 3000
+2026/03/26 17:49:39 WARN Memory usage above 80%
+2026/03/26 17:49:40 WARN Database connection failed
+2026/03/26 17:49:41 WARN Server started on port 3000
+2026/03/26 17:49:42 WARN Memory usage above 80%
+2026/03/26 17:49:43 INFO Server started on port 3000
+2026/03/26 17:49:44 ERROR Database connection failed
+2026/03/26 17:49:45 WARN Server started on port 3000
+2026/03/26 17:49:46 ERROR Database connection failed
+2026/03/26 17:49:47 WARN Database connection failed
+2026/03/26 17:49:48 ERROR Database connection failed
+2026/03/26 17:49:49 ERROR Server started on port 3000
+2026/03/26 17:49:50 WARN Memory usage above 80%
+2026/03/26 17:49:51 ERROR Memory usage above 80%
+2026/03/26 17:49:52 INFO Memory usage above 80%
+2026/03/26 17:49:53 ERROR Database connection failed
+2026/03/26 17:49:54 ERROR Server started on port 3000
+2026/03/26 17:49:55 ERROR Memory usage above 80%
+2026/03/26 17:49:56 WARN Memory usage above 80%
+2026/03/26 17:49:57 INFO Database connection failed
+2026/03/26 17:49:58 WARN Database connection failed
+2026/03/26 17:49:59 ERROR Database connection failed
+2026/03/26 17:50:00 WARN Database connection failed
+2026/03/26 17:50:01 WARN Database connection failed
+2026/03/26 17:50:02 WARN Database connection failed
+2026/03/26 17:50:03 WARN Database connection failed
+2026/03/26 17:50:04 WARN Server started on port 3000
+2026/03/26 17:50:05 ERROR Memory usage above 80%
+2026/03/26 17:50:06 INFO Server started on port 3000
+2026/03/26 17:50:07 ERROR Database connection failed
+2026/03/26 17:50:08 ERROR Memory usage above 80%
+2026/03/26 17:50:09 ERROR Memory usage above 80%
+2026/03/26 17:50:10 ERROR Database connection failed
+2026/03/26 17:50:11 ERROR Server started on port 3000
+2026/03/26 17:50:12 ERROR Database connection failed
+2026/03/26 17:50:13 ERROR Server started on port 3000
+2026/03/26 17:50:14 WARN Memory usage above 80%
+2026/03/26 17:50:15 INFO Memory usage above 80%
+2026/03/26 17:50:16 INFO Server started on port 3000
+2026/03/26 17:50:17 INFO Memory usage above 80%
+2026/03/26 17:50:18 ERROR Memory usage above 80%
+2026/03/26 17:50:19 ERROR Memory usage above 80%
+2026/03/26 17:50:20 WARN Database connection failed
+2026/03/26 17:50:21 ERROR Memory usage above 80%
+2026/03/26 17:50:22 INFO Database connection failed
+2026/03/26 17:50:23 ERROR Server started on port 3000
+2026/03/26 17:50:24 ERROR Database connection failed
+2026/03/26 17:50:25 ERROR Memory usage above 80%
+2026/03/26 17:50:26 WARN Memory usage above 80%
+2026/03/26 17:50:27 INFO Database connection failed
+2026/03/26 17:50:28 WARN Memory usage above 80%
+2026/03/26 17:50:29 INFO Database connection failed
+2026/03/26 17:50:30 INFO Memory usage above 80%
+2026/03/26 17:50:31 INFO Database connection failed
+2026/03/26 17:50:32 ERROR Database connection failed
+2026/03/26 17:50:33 WARN Server started on port 3000
+2026/03/26 17:50:34 INFO Memory usage above 80%
+2026/03/26 17:50:35 WARN Memory usage above 80%
+2026/03/26 17:50:36 INFO Server started on port 3000
+2026/03/26 17:50:37 ERROR Database connection failed
+2026/03/26 17:50:38 WARN Memory usage above 80%
+2026/03/26 17:50:39 WARN Server started on port 3000
+2026/03/26 17:50:40 WARN Memory usage above 80%
+2026/03/26 17:50:41 WARN Memory usage above 80%
+2026/03/26 17:50:42 ERROR Server started on port 3000
+2026/03/26 17:50:43 WARN Server started on port 3000
+2026/03/26 17:50:44 WARN Server started on port 3000
+2026/03/26 17:50:45 INFO Database connection failed
+2026/03/26 17:50:46 INFO Database connection failed
+2026/03/26 17:50:47 WARN Memory usage above 80%
+2026/03/26 17:50:48 ERROR Database connection failed
+2026/03/26 17:50:49 WARN Server started on port 3000
+2026/03/26 17:50:50 INFO Server started on port 3000
+2026/03/26 17:50:51 ERROR Server started on port 3000
+2026/03/26 17:50:52 WARN Memory usage above 80%
+2026/03/26 17:50:53 INFO Server started on port 3000
+2026/03/26 17:50:54 WARN Memory usage above 80%
+2026/03/26 17:50:55 WARN Database connection failed
+2026/03/26 17:50:56 ERROR Memory usage above 80%
+2026/03/26 17:50:57 ERROR Server started on port 3000
+2026/03/26 17:50:58 ERROR Database connection failed
+2026/03/26 17:50:59 ERROR Memory usage above 80%
+2026/03/26 17:51:00 WARN Memory usage above 80%
+2026/03/26 17:51:01 INFO Database connection failed
+2026/03/26 17:51:02 INFO Server started on port 3000
+2026/03/26 17:51:03 INFO Server started on port 3000
+2026/03/26 17:51:04 WARN Server started on port 3000
+2026/03/26 17:51:05 ERROR Server started on port 3000
+2026/03/26 17:51:06 INFO Memory usage above 80%
+2026/03/26 17:51:07 ERROR Server started on port 3000
+2026/03/26 17:51:08 INFO Database connection failed
+2026/03/26 17:51:09 ERROR Memory usage above 80%
+2026/03/26 17:51:10 ERROR Memory usage above 80%
+2026/03/26 17:51:11 INFO Server started on port 3000
+2026/03/26 17:51:12 WARN Database connection failed
+2026/03/26 17:51:13 ERROR Memory usage above 80%
+2026/03/26 17:51:14 ERROR Database connection failed
+2026/03/26 17:51:15 WARN Server started on port 3000
+2026/03/26 17:51:16 WARN Memory usage above 80%
+2026/03/26 17:51:17 WARN Server started on port 3000
+2026/03/26 17:51:18 ERROR Server started on port 3000
+2026/03/26 17:51:19 ERROR Server started on port 3000
+2026/03/26 17:51:20 INFO Server started on port 3000
+2026/03/26 17:51:21 INFO Server started on port 3000
+2026/03/26 17:51:22 ERROR Database connection failed
+2026/03/26 17:51:23 ERROR Database connection failed
+2026/03/26 17:51:24 ERROR Server started on port 3000
+2026/03/26 17:51:25 INFO Memory usage above 80%
+2026/03/26 17:51:26 ERROR Database connection failed
+2026/03/26 17:51:27 ERROR Database connection failed
+2026/03/26 17:51:28 ERROR Memory usage above 80%
+2026/03/26 17:51:29 ERROR Server started on port 3000
+2026/03/26 17:51:30 INFO Server started on port 3000
+2026/03/26 17:51:31 WARN Memory usage above 80%
+2026/03/26 17:51:32 WARN Memory usage above 80%
+2026/03/26 17:51:33 WARN Database connection failed
+2026/03/26 17:51:34 ERROR Memory usage above 80%
+2026/03/26 17:51:35 ERROR Server started on port 3000
+2026/03/26 17:51:36 INFO Server started on port 3000
+2026/03/26 17:51:37 ERROR Database connection failed
+2026/03/26 17:51:38 ERROR Server started on port 3000
+2026/03/26 17:51:39 ERROR Database connection failed
+2026/03/26 17:51:40 INFO Server started on port 3000
+2026/03/26 17:51:41 WARN Memory usage above 80%
+2026/03/26 17:51:42 INFO Database connection failed
+2026/03/26 17:51:43 INFO Database connection failed
+2026/03/26 17:51:44 WARN Database connection failed
+2026/03/26 17:51:45 ERROR Database connection failed
+2026/03/26 17:51:46 WARN Memory usage above 80%
+2026/03/26 17:51:47 INFO Database connection failed
+2026/03/26 17:51:48 ERROR Server started on port 3000
+2026/03/26 17:51:49 WARN Memory usage above 80%
+2026/03/26 17:51:50 ERROR Server started on port 3000
+2026/03/26 17:51:51 INFO Database connection failed
+2026/03/26 17:51:52 ERROR Database connection failed
+2026/03/26 17:51:53 ERROR Memory usage above 80%
+2026/03/26 17:51:54 ERROR Server started on port 3000
+2026/03/26 17:51:55 ERROR Memory usage above 80%
+2026/03/26 17:51:56 ERROR Memory usage above 80%
+2026/03/26 17:51:57 INFO Server started on port 3000
+2026/03/26 17:51:58 ERROR Server started on port 3000
+2026/03/26 17:51:59 WARN Memory usage above 80%
+2026/03/26 17:52:00 WARN Server started on port 3000
+2026/03/26 17:52:01 INFO Memory usage above 80%
+2026/03/26 17:52:02 WARN Database connection failed
+2026/03/26 17:52:03 ERROR Memory usage above 80%
+2026/03/26 17:52:04 INFO Memory usage above 80%
+2026/03/26 17:52:05 WARN Server started on port 3000
+2026/03/26 17:52:06 WARN Database connection failed
+2026/03/26 17:52:07 ERROR Memory usage above 80%
+2026/03/26 17:52:08 INFO Database connection failed
+2026/03/26 17:52:09 WARN Memory usage above 80%
+2026/03/26 17:52:10 WARN Server started on port 3000
+2026/03/26 17:52:11 WARN Server started on port 3000
+2026/03/26 17:52:12 INFO Database connection failed
+2026/03/26 17:52:13 INFO Server started on port 3000
+2026/03/26 17:52:14 WARN Memory usage above 80%
+2026/03/26 17:52:15 ERROR Memory usage above 80%
+2026/03/26 17:52:16 WARN Server started on port 3000
+2026/03/26 17:52:17 INFO Database connection failed
+2026/03/26 17:52:18 INFO Memory usage above 80%
+2026/03/26 17:52:19 ERROR Database connection failed
+2026/03/26 17:52:20 INFO Database connection failed
+2026/03/26 17:52:21 WARN Memory usage above 80%
+2026/03/26 17:52:22 ERROR Server started on port 3000
+2026/03/26 17:52:23 WARN Memory usage above 80%
+2026/03/26 17:52:24 WARN Memory usage above 80%
+2026/03/26 17:52:25 ERROR Database connection failed
+2026/03/26 17:52:26 ERROR Database connection failed
+2026/03/26 17:52:27 INFO Memory usage above 80%
+2026/03/26 17:52:28 WARN Database connection failed
+2026/03/26 17:52:29 ERROR Memory usage above 80%
+2026/03/26 17:52:30 INFO Memory usage above 80%
+2026/03/26 17:52:31 ERROR Database connection failed
+2026/03/26 17:52:32 WARN Database connection failed
+2026/03/26 17:52:33 INFO Memory usage above 80%
+2026/03/26 17:52:34 ERROR Memory usage above 80%
+2026/03/26 17:52:35 ERROR Memory usage above 80%
+2026/03/26 17:52:36 ERROR Database connection failed
+2026/03/26 17:52:37 INFO Server started on port 3000
+2026/03/26 17:52:38 WARN Server started on port 3000
+2026/03/26 17:52:39 INFO Database connection failed
+2026/03/26 17:52:40 INFO Memory usage above 80%
+2026/03/26 17:52:41 ERROR Server started on port 3000
+2026/03/26 17:52:42 INFO Memory usage above 80%
+2026/03/26 17:52:43 INFO Server started on port 3000
+2026/03/26 17:52:44 WARN Server started on port 3000
+2026/03/26 17:52:45 ERROR Memory usage above 80%
+2026/03/26 17:52:46 WARN Server started on port 3000
+2026/03/26 17:52:47 ERROR Memory usage above 80%
+2026/03/26 17:52:48 INFO Database connection failed
+2026/03/26 17:52:49 WARN Database connection failed
+2026/03/26 17:52:50 INFO Server started on port 3000
+2026/03/26 17:52:51 ERROR Database connection failed
+2026/03/26 17:52:52 INFO Database connection failed
+2026/03/26 17:52:53 ERROR Database connection failed
+2026/03/26 17:52:54 ERROR Database connection failed
+2026/03/26 17:52:55 WARN Memory usage above 80%
+2026/03/26 17:52:56 WARN Memory usage above 80%
+2026/03/26 17:52:57 ERROR Database connection failed
+2026/03/26 17:52:58 WARN Memory usage above 80%
+2026/03/26 17:52:59 WARN Memory usage above 80%
+2026/03/26 17:53:00 WARN Server started on port 3000
+2026/03/26 17:53:01 WARN Database connection failed
+2026/03/26 17:53:02 ERROR Database connection failed
+2026/03/26 17:53:03 INFO Server started on port 3000
+2026/03/26 17:53:04 WARN Memory usage above 80%
+2026/03/26 17:53:05 ERROR Memory usage above 80%
+2026/03/26 17:53:06 WARN Database connection failed
+2026/03/26 17:53:07 ERROR Database connection failed
+2026/03/26 17:53:08 ERROR Memory usage above 80%
+2026/03/26 17:53:09 ERROR Database connection failed
+2026/03/26 17:53:10 ERROR Server started on port 3000
+2026/03/26 17:53:11 INFO Memory usage above 80%
+2026/03/26 17:53:12 WARN Memory usage above 80%
+2026/03/26 17:53:13 WARN Server started on port 3000
+2026/03/26 17:53:14 INFO Database connection failed
+2026/03/26 17:53:15 WARN Memory usage above 80%
+2026/03/26 17:53:16 INFO Server started on port 3000
+2026/03/26 17:53:17 WARN Database connection failed
+2026/03/26 17:53:18 INFO Database connection failed
+2026/03/26 17:53:19 INFO Database connection failed
+2026/03/26 17:53:20 INFO Server started on port 3000
+2026/03/26 17:53:21 ERROR Server started on port 3000
+2026/03/26 17:53:22 ERROR Server started on port 3000
+2026/03/26 17:53:23 WARN Memory usage above 80%
+2026/03/26 17:53:24 INFO Server started on port 3000
+2026/03/26 17:53:25 INFO Database connection failed
+2026/03/26 17:53:26 WARN Server started on port 3000
+2026/03/26 17:53:27 INFO Server started on port 3000
+2026/03/26 17:53:28 WARN Memory usage above 80%
+2026/03/26 17:53:29 WARN Database connection failed
+2026/03/26 17:53:30 WARN Database connection failed
+2026/03/26 17:53:31 WARN Memory usage above 80%
+2026/03/26 17:53:32 ERROR Database connection failed
+2026/03/26 17:53:33 INFO Memory usage above 80%
+2026/03/26 17:53:34 WARN Server started on port 3000
+2026/03/26 17:53:35 INFO Memory usage above 80%
+2026/03/26 17:53:36 INFO Memory usage above 80%
+2026/03/26 17:53:37 ERROR Memory usage above 80%
+2026/03/26 17:53:38 WARN Server started on port 3000
+2026/03/26 17:53:39 INFO Memory usage above 80%
+2026/03/26 17:53:40 ERROR Memory usage above 80%
+2026/03/26 17:53:41 WARN Server started on port 3000
+2026/03/26 17:53:42 WARN Memory usage above 80%
+2026/03/26 17:53:43 WARN Database connection failed
+2026/03/26 17:53:44 WARN Server started on port 3000
+2026/03/26 17:53:45 ERROR Memory usage above 80%
+2026/03/26 17:53:46 WARN Database connection failed
+2026/03/26 17:53:47 ERROR Database connection failed
+2026/03/26 17:53:48 ERROR Server started on port 3000
+2026/03/26 17:53:49 INFO Database connection failed
+2026/03/26 17:53:50 WARN Memory usage above 80%
+2026/03/26 17:53:51 INFO Server started on port 3000
+2026/03/26 17:53:52 ERROR Server started on port 3000
+2026/03/26 17:53:53 WARN Server started on port 3000
+2026/03/26 17:53:54 INFO Database connection failed
+2026/03/26 17:53:55 INFO Server started on port 3000
+2026/03/26 17:53:56 INFO Database connection failed
+2026/03/26 17:53:57 WARN Database connection failed
+2026/03/26 17:53:58 INFO Server started on port 3000
+2026/03/26 17:53:59 WARN Memory usage above 80%
+2026/03/26 17:54:00 ERROR Memory usage above 80%
+2026/03/26 17:54:01 WARN Memory usage above 80%
+2026/03/26 17:54:02 ERROR Memory usage above 80%
+2026/03/26 17:54:03 ERROR Memory usage above 80%
+2026/03/26 17:54:04 INFO Memory usage above 80%
+2026/03/26 17:54:05 WARN Memory usage above 80%
+2026/03/26 17:54:06 WARN Database connection failed
+2026/03/26 17:54:07 WARN Memory usage above 80%
+2026/03/26 17:54:08 INFO Database connection failed
+2026/03/26 17:54:09 ERROR Memory usage above 80%
+2026/03/26 17:54:10 INFO Database connection failed
+2026/03/26 17:54:11 WARN Server started on port 3000
+2026/03/26 17:54:12 INFO Database connection failed
+2026/03/26 17:54:13 WARN Server started on port 3000
+2026/03/26 17:54:14 ERROR Database connection failed
+2026/03/26 17:54:15 WARN Database connection failed
+2026/03/26 17:54:16 ERROR Memory usage above 80%
+2026/03/26 17:54:17 WARN Server started on port 3000
+2026/03/26 17:54:18 ERROR Database connection failed
+2026/03/26 17:54:19 INFO Server started on port 3000
+2026/03/26 17:54:20 INFO Memory usage above 80%
+2026/03/26 17:54:21 WARN Memory usage above 80%
+2026/03/26 17:54:22 ERROR Server started on port 3000
+2026/03/26 17:54:23 ERROR Server started on port 3000
+2026/03/26 17:54:24 INFO Server started on port 3000
+2026/03/26 17:54:25 WARN Memory usage above 80%
+2026/03/26 17:54:26 INFO Server started on port 3000
+2026/03/26 17:54:27 INFO Server started on port 3000
+2026/03/26 17:54:28 INFO Memory usage above 80%
+2026/03/26 17:54:29 INFO Database connection failed
+2026/03/26 17:54:30 ERROR Server started on port 3000
+2026/03/26 17:54:31 INFO Memory usage above 80%
+2026/03/26 17:54:32 INFO Memory usage above 80%
+2026/03/26 17:54:33 ERROR Memory usage above 80%
+2026/03/26 17:54:34 WARN Server started on port 3000
+2026/03/26 17:54:35 INFO Memory usage above 80%
+2026/03/26 17:54:36 WARN Database connection failed
+2026/03/26 17:54:37 INFO Server started on port 3000
+2026/03/26 17:54:38 INFO Database connection failed
+2026/03/26 17:54:39 INFO Server started on port 3000
+2026/03/26 17:54:40 INFO Database connection failed
+2026/03/26 17:54:41 WARN Server started on port 3000
+2026/03/26 17:54:42 WARN Database connection failed
+2026/03/26 17:54:43 ERROR Database connection failed
+2026/03/26 17:54:44 INFO Memory usage above 80%
+2026/03/26 17:54:45 WARN Database connection failed
+2026/03/26 17:54:46 WARN Server started on port 3000
+2026/03/26 17:54:47 INFO Memory usage above 80%
+2026/03/26 17:54:48 WARN Server started on port 3000
+2026/03/26 17:54:49 INFO Database connection failed
+2026/03/26 17:54:50 WARN Server started on port 3000
+2026/03/26 17:54:51 WARN Database connection failed
+2026/03/26 17:54:52 ERROR Memory usage above 80%
+2026/03/26 17:54:53 ERROR Server started on port 3000
+2026/03/26 17:54:54 WARN Memory usage above 80%
+2026/03/26 17:54:55 ERROR Server started on port 3000
+2026/03/26 17:54:56 WARN Memory usage above 80%
+2026/03/26 17:54:57 WARN Memory usage above 80%
+2026/03/26 17:54:58 INFO Memory usage above 80%
+2026/03/26 17:54:59 INFO Database connection failed
+2026/03/26 17:55:00 INFO Memory usage above 80%
+2026/03/26 17:55:01 ERROR Memory usage above 80%
+2026/03/26 17:55:02 WARN Database connection failed
+2026/03/26 17:55:03 INFO Server started on port 3000
+2026/03/26 17:55:04 INFO Memory usage above 80%
+2026/03/26 17:55:05 INFO Memory usage above 80%
+2026/03/26 17:55:06 INFO Memory usage above 80%
+2026/03/26 17:55:07 INFO Server started on port 3000
+2026/03/26 17:55:08 INFO Memory usage above 80%
+2026/03/26 17:55:09 INFO Server started on port 3000
+2026/03/26 17:55:10 INFO Memory usage above 80%
+2026/03/26 17:55:11 INFO Database connection failed
+2026/03/26 17:55:12 ERROR Database connection failed
+2026/03/26 17:55:13 INFO Memory usage above 80%
+2026/03/26 17:55:14 ERROR Server started on port 3000
+2026/03/26 17:55:15 ERROR Memory usage above 80%
+2026/03/26 17:55:16 ERROR Memory usage above 80%
+2026/03/26 17:55:17 INFO Memory usage above 80%
+2026/03/26 17:55:18 ERROR Database connection failed
+2026/03/26 17:55:19 ERROR Database connection failed
+2026/03/26 17:55:20 INFO Memory usage above 80%
+2026/03/26 17:55:21 ERROR Database connection failed
+2026/03/26 17:55:22 INFO Database connection failed
+2026/03/26 17:55:23 ERROR Server started on port 3000
+2026/03/26 17:55:24 WARN Database connection failed
+2026/03/26 17:55:25 ERROR Memory usage above 80%
+2026/03/26 17:55:26 INFO Memory usage above 80%
+2026/03/26 17:55:27 WARN Database connection failed
+2026/03/26 17:55:28 ERROR Server started on port 3000
+2026/03/26 17:55:29 ERROR Server started on port 3000
+2026/03/26 17:55:30 ERROR Memory usage above 80%
+2026/03/26 17:55:31 WARN Server started on port 3000
+2026/03/26 17:55:32 ERROR Server started on port 3000
+2026/03/26 17:55:33 INFO Database connection failed
+2026/03/26 17:55:34 INFO Database connection failed
+2026/03/26 17:55:35 INFO Memory usage above 80%
+2026/03/26 17:55:36 ERROR Database connection failed
+2026/03/26 17:55:37 INFO Database connection failed
+2026/03/26 17:55:38 ERROR Server started on port 3000
+2026/03/26 17:55:39 INFO Memory usage above 80%
+2026/03/26 17:55:40 INFO Memory usage above 80%
+2026/03/26 17:55:41 WARN Server started on port 3000
+2026/03/26 17:55:42 ERROR Server started on port 3000
+2026/03/26 17:55:43 ERROR Server started on port 3000
+2026/03/26 17:55:44 ERROR Memory usage above 80%
+2026/03/26 17:55:45 ERROR Memory usage above 80%
+2026/03/26 17:55:46 INFO Database connection failed
+2026/03/26 17:55:47 WARN Server started on port 3000
+2026/03/26 17:55:48 WARN Server started on port 3000
+2026/03/26 17:55:49 INFO Database connection failed
+2026/03/26 17:55:50 INFO Memory usage above 80%
+2026/03/26 17:55:51 ERROR Server started on port 3000
+2026/03/26 17:55:52 ERROR Server started on port 3000
+2026/03/26 17:55:53 ERROR Database connection failed
+2026/03/26 17:55:54 INFO Memory usage above 80%
+2026/03/26 17:55:55 ERROR Server started on port 3000
+2026/03/26 17:55:56 ERROR Database connection failed
+2026/03/26 17:55:57 INFO Server started on port 3000
+2026/03/26 17:55:58 WARN Server started on port 3000
+2026/03/26 17:55:59 WARN Server started on port 3000
+2026/03/26 17:56:00 INFO Memory usage above 80%
+2026/03/26 17:56:01 WARN Memory usage above 80%
+2026/03/26 17:56:02 ERROR Server started on port 3000
+2026/03/26 17:56:03 WARN Database connection failed
+2026/03/26 17:56:04 INFO Database connection failed
+2026/03/26 17:56:05 WARN Server started on port 3000
+2026/03/26 17:56:06 WARN Database connection failed
+2026/03/26 17:56:07 INFO Memory usage above 80%
+2026/03/26 17:56:08 ERROR Memory usage above 80%
+2026/03/26 17:56:09 INFO Memory usage above 80%
+2026/03/26 17:56:10 ERROR Memory usage above 80%
+2026/03/26 17:56:11 INFO Server started on port 3000
+2026/03/26 17:56:12 WARN Server started on port 3000
+2026/03/26 17:56:13 WARN Memory usage above 80%
+2026/03/26 17:56:14 WARN Database connection failed
+2026/03/26 17:56:15 WARN Server started on port 3000
+2026/03/26 17:56:16 ERROR Memory usage above 80%
+2026/03/26 17:56:17 INFO Memory usage above 80%
+2026/03/26 17:56:18 WARN Memory usage above 80%
+2026/03/26 17:56:19 INFO Database connection failed
+2026/03/26 17:56:20 ERROR Memory usage above 80%
+2026/03/26 17:56:21 WARN Database connection failed
+2026/03/26 17:56:22 ERROR Server started on port 3000
+2026/03/26 17:56:23 INFO Database connection failed
+2026/03/26 17:56:24 INFO Database connection failed
+2026/03/26 17:56:25 ERROR Server started on port 3000
+2026/03/26 17:56:26 WARN Database connection failed
+2026/03/26 17:56:27 INFO Database connection failed
+2026/03/26 17:56:28 WARN Database connection failed
+2026/03/26 17:56:29 INFO Server started on port 3000
+2026/03/26 17:56:30 INFO Memory usage above 80%
+2026/03/26 17:56:31 ERROR Server started on port 3000
+2026/03/26 17:56:32 WARN Memory usage above 80%
+2026/03/26 17:56:33 WARN Database connection failed
+2026/03/26 17:56:34 INFO Memory usage above 80%
+2026/03/26 17:56:35 INFO Memory usage above 80%
+2026/03/26 17:56:36 INFO Memory usage above 80%
+2026/03/26 17:56:37 WARN Server started on port 3000
+2026/03/26 17:56:38 INFO Memory usage above 80%
+2026/03/26 17:56:39 INFO Database connection failed
+2026/03/26 17:56:40 ERROR Database connection failed
+2026/03/26 17:56:41 INFO Server started on port 3000
+2026/03/26 17:56:42 INFO Server started on port 3000
+2026/03/26 17:56:43 INFO Server started on port 3000
+2026/03/26 17:56:44 INFO Memory usage above 80%
+2026/03/26 17:56:45 WARN Server started on port 3000
+2026/03/26 17:56:46 INFO Database connection failed
+2026/03/26 17:56:47 INFO Server started on port 3000
+2026/03/26 17:56:48 INFO Server started on port 3000
+2026/03/26 17:56:49 INFO Server started on port 3000
+2026/03/26 17:56:50 ERROR Server started on port 3000
+2026/03/26 17:56:51 ERROR Database connection failed
+2026/03/26 17:56:52 INFO Database connection failed
+2026/03/26 17:56:53 WARN Memory usage above 80%
+2026/03/26 17:56:54 ERROR Server started on port 3000
+2026/03/26 17:56:55 ERROR Memory usage above 80%
+2026/03/26 17:56:56 INFO Server started on port 3000
+2026/03/26 17:56:57 ERROR Memory usage above 80%
+2026/03/26 17:56:58 WARN Memory usage above 80%
+2026/03/26 17:56:59 WARN Server started on port 3000
+2026/03/26 17:57:00 WARN Database connection failed
+2026/03/26 17:57:01 ERROR Database connection failed
+2026/03/26 17:57:02 ERROR Server started on port 3000
+2026/03/26 17:57:03 WARN Server started on port 3000
+2026/03/26 17:57:04 WARN Server started on port 3000
+2026/03/26 17:57:05 ERROR Server started on port 3000
+2026/03/26 17:57:06 INFO Server started on port 3000
+2026/03/26 17:57:07 INFO Server started on port 3000
+2026/03/26 17:57:08 WARN Server started on port 3000
+2026/03/26 17:57:09 ERROR Memory usage above 80%
+2026/03/26 17:57:10 INFO Server started on port 3000
+2026/03/26 17:57:11 WARN Memory usage above 80%
+2026/03/26 17:57:12 WARN Database connection failed
+2026/03/26 17:57:13 INFO Memory usage above 80%
+2026/03/26 17:57:14 INFO Database connection failed
+2026/03/26 17:57:15 ERROR Memory usage above 80%
+2026/03/26 17:57:16 WARN Memory usage above 80%
+2026/03/26 17:57:17 INFO Database connection failed
+2026/03/26 17:57:18 WARN Server started on port 3000
+2026/03/26 17:57:19 INFO Server started on port 3000
+2026/03/26 17:57:20 ERROR Database connection failed
+2026/03/26 17:57:21 INFO Server started on port 3000
+2026/03/26 17:57:22 WARN Server started on port 3000
+2026/03/26 17:57:23 WARN Database connection failed
+2026/03/26 17:57:24 WARN Database connection failed
+2026/03/26 17:57:25 INFO Server started on port 3000
+2026/03/26 17:57:26 ERROR Database connection failed
+2026/03/26 17:57:27 WARN Memory usage above 80%
+2026/03/26 17:57:28 ERROR Server started on port 3000
+2026/03/26 17:57:29 WARN Database connection failed
+2026/03/26 17:57:30 WARN Database connection failed
+2026/03/26 17:57:31 INFO Database connection failed
+2026/03/26 17:57:32 WARN Server started on port 3000
+2026/03/26 17:57:33 WARN Memory usage above 80%
+2026/03/26 17:57:34 ERROR Database connection failed
+2026/03/26 17:57:35 INFO Memory usage above 80%
+2026/03/26 17:57:36 INFO Server started on port 3000
+2026/03/26 17:57:37 INFO Database connection failed
+2026/03/26 17:57:38 ERROR Memory usage above 80%
+2026/03/26 17:57:39 ERROR Memory usage above 80%
+2026/03/26 17:57:40 WARN Database connection failed
+2026/03/26 17:57:41 INFO Database connection failed
+2026/03/26 17:57:42 ERROR Server started on port 3000
+2026/03/26 17:57:43 WARN Memory usage above 80%
+2026/03/26 17:57:44 ERROR Memory usage above 80%
+2026/03/26 17:57:45 ERROR Memory usage above 80%
+2026/03/26 17:57:46 ERROR Memory usage above 80%
+2026/03/26 17:57:47 INFO Database connection failed
+2026/03/26 17:57:48 ERROR Database connection failed
+2026/03/26 17:57:49 WARN Server started on port 3000
+2026/03/26 17:57:50 ERROR Memory usage above 80%
+2026/03/26 17:57:51 WARN Memory usage above 80%
+2026/03/26 17:57:52 ERROR Memory usage above 80%
+2026/03/26 17:57:53 INFO Database connection failed
+2026/03/26 17:57:54 ERROR Memory usage above 80%
+2026/03/26 17:57:55 WARN Server started on port 3000
+2026/03/26 17:57:56 INFO Memory usage above 80%
+2026/03/26 17:57:57 WARN Database connection failed
+2026/03/26 17:57:58 ERROR Memory usage above 80%
+2026/03/26 17:57:59 ERROR Memory usage above 80%
+2026/03/26 17:58:00 ERROR Server started on port 3000
+2026/03/26 17:58:01 WARN Memory usage above 80%
+2026/03/26 17:58:02 INFO Database connection failed
+2026/03/26 17:58:03 WARN Database connection failed
+2026/03/26 17:58:04 ERROR Memory usage above 80%
+2026/03/26 17:58:05 WARN Database connection failed
+2026/03/26 17:58:06 ERROR Server started on port 3000
+2026/03/26 17:58:07 WARN Memory usage above 80%
+2026/03/26 17:58:08 ERROR Server started on port 3000
+2026/03/26 17:58:09 INFO Server started on port 3000
+2026/03/26 17:58:10 ERROR Database connection failed
+2026/03/26 17:58:11 ERROR Server started on port 3000
+2026/03/26 17:58:12 ERROR Server started on port 3000
+2026/03/26 17:58:13 WARN Memory usage above 80%
+2026/03/26 17:58:14 ERROR Server started on port 3000
+2026/03/26 17:58:15 WARN Memory usage above 80%
+2026/03/26 17:58:16 ERROR Database connection failed
+2026/03/26 17:58:17 WARN Server started on port 3000
+2026/03/26 17:58:18 INFO Memory usage above 80%
+2026/03/26 17:58:19 ERROR Database connection failed
+2026/03/26 17:58:20 INFO Server started on port 3000
+2026/03/26 17:58:21 WARN Database connection failed
+2026/03/26 17:58:22 WARN Server started on port 3000
+2026/03/26 17:58:23 ERROR Memory usage above 80%
+2026/03/26 17:58:24 WARN Server started on port 3000
+2026/03/26 17:58:25 INFO Database connection failed
+2026/03/26 17:58:26 ERROR Database connection failed
+2026/03/26 17:58:27 WARN Server started on port 3000
+2026/03/26 17:58:28 INFO Memory usage above 80%
+2026/03/26 17:58:29 WARN Database connection failed
+2026/03/26 17:58:30 WARN Memory usage above 80%
+2026/03/26 17:58:31 ERROR Memory usage above 80%
+2026/03/26 17:58:32 INFO Server started on port 3000
+2026/03/26 17:58:33 ERROR Memory usage above 80%
+2026/03/26 17:58:34 WARN Server started on port 3000
+2026/03/26 17:58:35 ERROR Memory usage above 80%
+2026/03/26 17:58:36 INFO Memory usage above 80%
+2026/03/26 17:58:37 ERROR Memory usage above 80%
+2026/03/26 17:58:38 WARN Server started on port 3000
+2026/03/26 17:58:39 WARN Memory usage above 80%
+2026/03/26 17:58:40 WARN Server started on port 3000
+2026/03/26 17:58:41 ERROR Database connection failed
+2026/03/26 17:58:42 ERROR Server started on port 3000
+2026/03/26 17:58:43 WARN Memory usage above 80%
+2026/03/26 17:58:44 ERROR Server started on port 3000
+2026/03/26 17:58:45 ERROR Server started on port 3000
+2026/03/26 17:58:46 INFO Database connection failed
+2026/03/26 17:58:47 WARN Memory usage above 80%
+2026/03/26 17:58:48 WARN Database connection failed
+2026/03/26 17:58:49 WARN Database connection failed
+2026/03/26 17:58:50 ERROR Memory usage above 80%
+2026/03/26 17:58:51 WARN Memory usage above 80%
+2026/03/26 17:58:52 INFO Database connection failed
+2026/03/26 17:58:53 INFO Memory usage above 80%
+2026/03/26 17:58:54 WARN Server started on port 3000
+2026/03/26 17:58:55 INFO Database connection failed
+2026/03/26 17:58:56 WARN Database connection failed
+2026/03/26 17:58:57 WARN Memory usage above 80%
+2026/03/26 17:58:58 ERROR Database connection failed
+2026/03/26 17:58:59 INFO Database connection failed
+2026/03/26 17:59:00 WARN Database connection failed
+2026/03/26 17:59:01 INFO Server started on port 3000
+2026/03/26 17:59:02 ERROR Memory usage above 80%
+2026/03/26 17:59:03 WARN Server started on port 3000
+2026/03/26 17:59:04 INFO Memory usage above 80%
+2026/03/26 17:59:05 INFO Database connection failed
+2026/03/26 17:59:06 WARN Server started on port 3000
+2026/03/26 17:59:07 WARN Server started on port 3000
+2026/03/26 17:59:08 WARN Database connection failed
+2026/03/26 17:59:09 WARN Server started on port 3000
+2026/03/26 17:59:10 ERROR Server started on port 3000
+2026/03/26 17:59:11 WARN Server started on port 3000
+2026/03/26 17:59:12 ERROR Server started on port 3000
+2026/03/26 17:59:13 WARN Database connection failed
+2026/03/26 17:59:14 WARN Server started on port 3000
+2026/03/26 17:59:15 WARN Memory usage above 80%
+2026/03/26 17:59:16 ERROR Database connection failed
+2026/03/26 17:59:17 INFO Memory usage above 80%
+2026/03/26 17:59:18 INFO Database connection failed
+2026/03/26 17:59:19 INFO Memory usage above 80%
+2026/03/26 17:59:20 ERROR Server started on port 3000
+2026/03/26 17:59:21 WARN Database connection failed
+2026/03/26 17:59:22 WARN Memory usage above 80%
+2026/03/26 17:59:23 ERROR Database connection failed
+2026/03/26 17:59:24 ERROR Database connection failed
+2026/03/26 17:59:25 INFO Server started on port 3000
+2026/03/26 17:59:26 WARN Memory usage above 80%
+2026/03/26 17:59:27 INFO Server started on port 3000
+2026/03/26 17:59:28 INFO Database connection failed
+2026/03/26 17:59:29 WARN Server started on port 3000
+2026/03/26 17:59:30 WARN Server started on port 3000
+2026/03/26 17:59:31 INFO Memory usage above 80%
+2026/03/26 17:59:32 ERROR Server started on port 3000
+2026/03/26 17:59:33 INFO Database connection failed
+2026/03/26 17:59:34 ERROR Database connection failed
+2026/03/26 17:59:35 ERROR Memory usage above 80%
+2026/03/26 17:59:36 WARN Memory usage above 80%
+2026/03/26 17:59:37 ERROR Memory usage above 80%
+2026/03/26 17:59:38 WARN Memory usage above 80%
+2026/03/26 17:59:39 INFO Memory usage above 80%
+2026/03/26 17:59:40 ERROR Database connection failed
+2026/03/26 17:59:41 INFO Server started on port 3000
+2026/03/26 17:59:42 ERROR Database connection failed
+2026/03/26 17:59:43 ERROR Memory usage above 80%
+2026/03/26 17:59:44 WARN Server started on port 3000
+2026/03/26 17:59:45 WARN Memory usage above 80%
+2026/03/26 17:59:46 WARN Database connection failed
+2026/03/26 17:59:47 INFO Memory usage above 80%
+2026/03/26 17:59:48 ERROR Database connection failed
+2026/03/26 17:59:49 INFO Memory usage above 80%
+2026/03/26 17:59:50 WARN Database connection failed
+2026/03/26 17:59:51 ERROR Memory usage above 80%
+2026/03/26 17:59:52 WARN Memory usage above 80%
+2026/03/26 17:59:53 INFO Server started on port 3000
+2026/03/26 17:59:54 ERROR Database connection failed
+2026/03/26 17:59:55 WARN Memory usage above 80%
+2026/03/26 17:59:56 ERROR Server started on port 3000
+2026/03/26 17:59:57 WARN Database connection failed
+2026/03/26 17:59:58 INFO Server started on port 3000
+2026/03/26 17:59:59 INFO Memory usage above 80%
+2026/03/26 18:00:00 WARN Memory usage above 80%
+2026/03/26 18:00:01 INFO Server started on port 3000
+2026/03/26 18:00:02 ERROR Server started on port 3000
+2026/03/26 18:00:03 WARN Server started on port 3000
+2026/03/26 18:00:04 INFO Memory usage above 80%
+2026/03/26 18:00:05 WARN Memory usage above 80%
+2026/03/26 18:00:06 INFO Memory usage above 80%
+2026/03/26 18:00:07 INFO Server started on port 3000
+2026/03/26 18:00:08 WARN Server started on port 3000
+2026/03/26 18:00:09 WARN Server started on port 3000
+2026/03/26 18:00:10 ERROR Memory usage above 80%
+2026/03/26 18:00:11 INFO Server started on port 3000
+2026/03/26 18:00:12 ERROR Database connection failed
+2026/03/26 18:00:13 INFO Memory usage above 80%
+2026/03/26 18:00:14 ERROR Database connection failed
+2026/03/26 18:00:15 WARN Memory usage above 80%
+2026/03/26 18:00:16 INFO Memory usage above 80%
+2026/03/26 18:00:17 WARN Memory usage above 80%
+2026/03/26 18:00:18 WARN Database connection failed
+2026/03/26 18:00:19 INFO Database connection failed
+2026/03/26 18:00:20 WARN Server started on port 3000
+2026/03/26 18:00:21 WARN Server started on port 3000
+2026/03/26 18:00:22 INFO Database connection failed
+2026/03/26 18:00:23 ERROR Database connection failed
+2026/03/26 18:00:24 ERROR Memory usage above 80%
+2026/03/26 18:00:25 WARN Database connection failed
+2026/03/26 18:00:26 INFO Memory usage above 80%
+2026/03/26 18:00:27 ERROR Server started on port 3000
+2026/03/26 18:00:28 WARN Memory usage above 80%
+2026/03/26 18:00:29 INFO Server started on port 3000
+2026/03/26 18:00:30 WARN Database connection failed
+2026/03/26 18:00:31 WARN Memory usage above 80%
+2026/03/26 18:00:32 INFO Database connection failed
+2026/03/26 18:00:33 ERROR Memory usage above 80%
+2026/03/26 18:00:34 WARN Memory usage above 80%
+2026/03/26 18:00:35 ERROR Database connection failed
+2026/03/26 18:00:36 WARN Server started on port 3000
+2026/03/26 18:00:37 ERROR Database connection failed
+2026/03/26 18:00:38 ERROR Server started on port 3000
+2026/03/26 18:00:39 WARN Memory usage above 80%
+2026/03/26 18:00:40 ERROR Database connection failed
+2026/03/26 18:00:41 INFO Memory usage above 80%
+2026/03/26 18:00:42 WARN Database connection failed
+2026/03/26 18:00:43 ERROR Memory usage above 80%
+2026/03/26 18:00:44 ERROR Server started on port 3000
+2026/03/26 18:00:45 INFO Server started on port 3000
+2026/03/26 18:00:46 WARN Memory usage above 80%
+2026/03/26 18:00:47 INFO Database connection failed
+2026/03/26 18:00:48 INFO Database connection failed
+2026/03/26 18:00:49 ERROR Server started on port 3000
+2026/03/26 18:00:50 ERROR Database connection failed
+2026/03/26 18:00:51 ERROR Memory usage above 80%
+2026/03/26 18:00:52 WARN Memory usage above 80%
+2026/03/26 18:00:53 INFO Server started on port 3000
+2026/03/26 18:00:54 WARN Database connection failed
+2026/03/26 18:00:55 WARN Memory usage above 80%
+2026/03/26 18:00:56 INFO Server started on port 3000
+2026/03/26 18:00:57 ERROR Server started on port 3000
+2026/03/26 18:00:58 ERROR Memory usage above 80%
+2026/03/26 18:00:59 ERROR Memory usage above 80%
+2026/03/26 18:01:00 ERROR Server started on port 3000
+2026/03/26 18:01:01 ERROR Memory usage above 80%
+2026/03/26 18:01:02 ERROR Database connection failed
+2026/03/26 18:01:03 INFO Memory usage above 80%
+2026/03/26 18:01:04 ERROR Database connection failed
+2026/03/26 18:01:05 ERROR Memory usage above 80%
+2026/03/26 18:01:06 ERROR Server started on port 3000
+2026/03/26 18:01:07 ERROR Server started on port 3000
+2026/03/26 18:01:08 ERROR Memory usage above 80%
+2026/03/26 18:01:09 INFO Memory usage above 80%
+2026/03/26 18:01:10 INFO Database connection failed
+2026/03/26 18:01:11 WARN Database connection failed
+2026/03/26 18:01:12 WARN Database connection failed
+2026/03/26 18:01:13 WARN Database connection failed
+2026/03/26 18:01:14 WARN Memory usage above 80%
+2026/03/26 18:01:15 INFO Server started on port 3000
+2026/03/26 18:01:16 WARN Server started on port 3000
+2026/03/26 18:01:17 ERROR Database connection failed
+2026/03/26 18:01:18 WARN Database connection failed
+2026/03/26 18:01:19 WARN Memory usage above 80%
+2026/03/26 18:01:20 WARN Memory usage above 80%
+2026/03/26 18:01:21 WARN Database connection failed
+2026/03/26 18:01:22 ERROR Server started on port 3000
+2026/03/26 18:01:23 WARN Memory usage above 80%
+2026/03/26 18:01:24 WARN Database connection failed
+2026/03/26 18:01:25 WARN Memory usage above 80%
+2026/03/26 18:01:26 ERROR Server started on port 3000
+2026/03/26 18:01:27 WARN Memory usage above 80%
+2026/03/26 18:01:28 INFO Database connection failed
+2026/03/26 18:01:29 INFO Database connection failed
+2026/03/26 18:01:30 ERROR Memory usage above 80%
+2026/03/26 18:01:31 ERROR Database connection failed
+2026/03/26 18:01:32 WARN Server started on port 3000
+2026/03/26 18:01:33 WARN Server started on port 3000
+2026/03/26 18:01:34 ERROR Server started on port 3000
+2026/03/26 18:01:35 ERROR Memory usage above 80%
+2026/03/26 18:01:36 WARN Server started on port 3000
+2026/03/26 18:01:37 WARN Database connection failed
+2026/03/26 18:01:38 ERROR Database connection failed
+2026/03/26 18:01:39 ERROR Memory usage above 80%
+2026/03/26 18:01:40 WARN Server started on port 3000
+2026/03/26 18:01:41 WARN Memory usage above 80%
+2026/03/26 18:01:42 WARN Memory usage above 80%
+2026/03/26 18:01:43 ERROR Memory usage above 80%
+2026/03/26 18:01:44 ERROR Memory usage above 80%
+2026/03/26 18:01:45 INFO Memory usage above 80%
+2026/03/26 18:01:46 ERROR Database connection failed
+2026/03/26 18:01:47 ERROR Database connection failed
+2026/03/26 18:01:48 WARN Memory usage above 80%
+2026/03/26 18:01:49 ERROR Memory usage above 80%
+2026/03/26 18:01:50 INFO Memory usage above 80%
+2026/03/26 18:01:51 WARN Server started on port 3000
+2026/03/26 18:01:52 INFO Database connection failed
+2026/03/26 18:01:53 INFO Server started on port 3000
+2026/03/26 18:01:54 ERROR Server started on port 3000
+2026/03/26 18:01:55 WARN Database connection failed
+2026/03/26 18:01:56 ERROR Memory usage above 80%
+2026/03/26 18:01:57 ERROR Server started on port 3000
+2026/03/26 18:01:58 INFO Memory usage above 80%
+2026/03/26 18:01:59 ERROR Server started on port 3000
+2026/03/26 18:02:00 ERROR Server started on port 3000
+2026/03/26 18:02:01 ERROR Server started on port 3000
+2026/03/26 18:02:02 ERROR Database connection failed
+2026/03/26 18:02:03 ERROR Server started on port 3000
+2026/03/26 18:02:04 INFO Database connection failed
+2026/03/26 18:02:05 ERROR Database connection failed
+2026/03/26 18:02:06 WARN Server started on port 3000
+2026/03/26 18:02:07 ERROR Database connection failed
+2026/03/26 18:02:08 ERROR Database connection failed
+2026/03/26 18:02:09 INFO Database connection failed
+2026/03/26 18:02:10 ERROR Server started on port 3000
+2026/03/26 18:02:11 WARN Database connection failed
+2026/03/26 18:02:12 WARN Server started on port 3000
+2026/03/26 18:02:13 WARN Server started on port 3000
+2026/03/26 18:02:14 INFO Server started on port 3000
+2026/03/26 18:02:15 INFO Server started on port 3000
+2026/03/26 18:02:16 WARN Server started on port 3000
+2026/03/26 18:02:17 INFO Server started on port 3000
+2026/03/26 18:02:18 INFO Server started on port 3000
+2026/03/26 18:02:19 INFO Database connection failed
+2026/03/26 18:02:20 WARN Database connection failed
+2026/03/26 18:02:21 ERROR Server started on port 3000
+2026/03/26 18:02:22 WARN Server started on port 3000
+2026/03/26 18:02:23 INFO Server started on port 3000
+2026/03/26 18:02:24 INFO Memory usage above 80%
+2026/03/26 18:02:25 INFO Database connection failed
+2026/03/26 18:02:26 INFO Database connection failed
+2026/03/26 18:02:27 WARN Server started on port 3000
+2026/03/26 18:02:28 ERROR Database connection failed
+2026/03/26 18:02:29 ERROR Memory usage above 80%
+2026/03/26 18:02:30 INFO Database connection failed
+2026/03/26 18:02:31 WARN Server started on port 3000
+2026/03/26 18:02:32 WARN Server started on port 3000
+2026/03/26 18:02:33 INFO Memory usage above 80%
+2026/03/26 18:02:34 ERROR Server started on port 3000
+2026/03/26 18:02:35 WARN Memory usage above 80%
+2026/03/26 18:02:36 ERROR Memory usage above 80%
+2026/03/26 18:02:37 WARN Server started on port 3000
+2026/03/26 18:02:38 INFO Server started on port 3000
+2026/03/26 18:02:39 ERROR Server started on port 3000
+2026/03/26 18:02:40 ERROR Server started on port 3000
+2026/03/26 18:02:41 INFO Server started on port 3000
+2026/03/26 18:02:42 WARN Memory usage above 80%
+2026/03/26 18:02:43 ERROR Database connection failed
+2026/03/26 18:02:44 ERROR Database connection failed
+2026/03/26 18:02:45 WARN Server started on port 3000
+2026/03/26 18:02:46 INFO Database connection failed
+2026/03/26 18:02:47 ERROR Server started on port 3000
+2026/03/26 18:02:48 WARN Memory usage above 80%
+2026/03/26 18:02:49 INFO Server started on port 3000
+2026/03/26 18:02:50 WARN Memory usage above 80%
+2026/03/26 18:02:51 ERROR Database connection failed
+2026/03/26 18:02:52 INFO Server started on port 3000
+2026/03/26 18:02:53 WARN Server started on port 3000
+2026/03/26 18:02:54 INFO Database connection failed
+2026/03/26 18:02:55 INFO Memory usage above 80%
+2026/03/26 18:02:56 INFO Server started on port 3000
+2026/03/26 18:02:57 INFO Memory usage above 80%
+2026/03/26 18:02:58 WARN Memory usage above 80%
+2026/03/26 18:02:59 INFO Memory usage above 80%
+2026/03/26 18:03:00 INFO Database connection failed
+2026/03/26 18:03:01 INFO Server started on port 3000
+2026/03/26 18:03:02 INFO Memory usage above 80%
+2026/03/26 18:03:03 WARN Server started on port 3000
+2026/03/26 18:03:04 ERROR Memory usage above 80%
+2026/03/26 18:03:05 ERROR Memory usage above 80%
+2026/03/26 18:03:06 ERROR Database connection failed
+2026/03/26 18:03:07 ERROR Memory usage above 80%
+2026/03/26 18:03:08 ERROR Memory usage above 80%
+2026/03/26 18:03:09 ERROR Memory usage above 80%
+2026/03/26 18:03:10 ERROR Memory usage above 80%
+2026/03/26 18:03:11 ERROR Server started on port 3000
+2026/03/26 18:03:12 ERROR Memory usage above 80%
+2026/03/26 18:03:13 ERROR Server started on port 3000
+2026/03/26 18:03:14 INFO Server started on port 3000
+2026/03/26 18:03:15 WARN Server started on port 3000
+2026/03/26 18:03:16 ERROR Database connection failed
+2026/03/26 18:03:17 ERROR Server started on port 3000
+2026/03/26 18:03:18 WARN Server started on port 3000
+2026/03/26 18:03:19 WARN Database connection failed
+2026/03/26 18:03:20 ERROR Server started on port 3000
+2026/03/26 18:03:21 WARN Database connection failed
+2026/03/26 18:03:22 ERROR Memory usage above 80%
+2026/03/26 18:03:23 ERROR Database connection failed
+2026/03/26 18:03:24 INFO Memory usage above 80%
+2026/03/26 18:03:25 ERROR Server started on port 3000
+2026/03/26 18:03:26 WARN Database connection failed
+2026/03/26 18:03:27 WARN Database connection failed
+2026/03/26 18:03:28 ERROR Memory usage above 80%
+2026/03/26 18:03:29 ERROR Memory usage above 80%
+2026/03/26 18:03:30 INFO Database connection failed
+2026/03/26 18:03:31 ERROR Server started on port 3000
+2026/03/26 18:03:32 ERROR Database connection failed
+2026/03/26 18:03:33 INFO Memory usage above 80%
+2026/03/26 18:03:34 ERROR Database connection failed
+2026/03/26 18:03:35 INFO Database connection failed
+2026/03/26 18:03:36 ERROR Database connection failed
+2026/03/26 18:03:37 INFO Database connection failed
+2026/03/26 18:03:38 INFO Memory usage above 80%
+2026/03/26 18:03:39 ERROR Database connection failed
+2026/03/26 18:03:40 WARN Database connection failed
+2026/03/26 18:03:41 INFO Memory usage above 80%
+2026/03/26 18:03:42 INFO Database connection failed
+2026/03/26 18:03:43 ERROR Memory usage above 80%
+2026/03/26 18:03:44 INFO Database connection failed
+2026/03/26 18:03:45 ERROR Database connection failed
+2026/03/26 18:03:46 ERROR Server started on port 3000
+2026/03/26 18:03:47 INFO Memory usage above 80%
+2026/03/26 18:03:48 WARN Database connection failed
+2026/03/26 18:03:49 WARN Memory usage above 80%
+2026/03/26 18:03:50 ERROR Memory usage above 80%
+2026/03/26 18:03:51 ERROR Memory usage above 80%
+2026/03/26 18:03:52 INFO Memory usage above 80%
+2026/03/26 18:03:53 INFO Server started on port 3000
+2026/03/26 18:03:54 ERROR Database connection failed
+2026/03/26 18:03:55 WARN Server started on port 3000
+2026/03/26 18:03:56 ERROR Database connection failed
+2026/03/26 18:03:57 ERROR Memory usage above 80%
+2026/03/26 18:03:58 ERROR Database connection failed
+2026/03/26 18:03:59 INFO Memory usage above 80%
+2026/03/26 18:04:00 INFO Server started on port 3000
+2026/03/26 18:04:01 WARN Server started on port 3000
+2026/03/26 18:04:02 INFO Memory usage above 80%
+2026/03/26 18:04:03 INFO Database connection failed
+2026/03/26 18:04:04 INFO Database connection failed
+2026/03/26 18:04:05 ERROR Server started on port 3000
+2026/03/26 18:04:06 ERROR Database connection failed
+2026/03/26 18:04:07 INFO Server started on port 3000
+2026/03/26 18:04:08 WARN Server started on port 3000
+2026/03/26 18:04:09 INFO Server started on port 3000
+2026/03/26 18:04:10 ERROR Server started on port 3000
+2026/03/26 18:04:11 INFO Memory usage above 80%
+2026/03/26 18:04:12 INFO Server started on port 3000
+2026/03/26 18:04:13 INFO Server started on port 3000
+2026/03/26 18:04:14 ERROR Memory usage above 80%
+2026/03/26 18:04:15 INFO Database connection failed
+2026/03/26 18:04:16 WARN Database connection failed
+2026/03/26 18:04:17 WARN Database connection failed
+2026/03/26 18:04:18 ERROR Database connection failed
+2026/03/26 18:04:19 INFO Memory usage above 80%
+2026/03/26 18:04:20 ERROR Database connection failed
+2026/03/26 18:04:21 ERROR Memory usage above 80%
+2026/03/26 18:04:22 WARN Memory usage above 80%
+2026/03/26 18:04:23 WARN Server started on port 3000
+2026/03/26 18:04:24 ERROR Memory usage above 80%
+2026/03/26 18:04:25 WARN Memory usage above 80%
+2026/03/26 18:04:26 INFO Memory usage above 80%
+2026/03/26 18:04:27 WARN Database connection failed
+2026/03/26 18:04:28 WARN Server started on port 3000
+2026/03/26 18:04:29 INFO Memory usage above 80%
+2026/03/26 18:04:30 ERROR Server started on port 3000
+2026/03/26 18:04:31 WARN Server started on port 3000
+2026/03/26 18:04:32 ERROR Database connection failed
+2026/03/26 18:04:33 INFO Database connection failed
+2026/03/26 18:04:34 ERROR Database connection failed
+2026/03/26 18:04:35 WARN Database connection failed
+2026/03/26 18:04:36 ERROR Database connection failed
+2026/03/26 18:04:37 ERROR Memory usage above 80%
+2026/03/26 18:04:38 INFO Server started on port 3000
+2026/03/26 18:04:39 ERROR Database connection failed
+2026/03/26 18:04:40 INFO Database connection failed
+2026/03/26 18:04:41 ERROR Database connection failed
+2026/03/26 18:04:42 ERROR Server started on port 3000
+2026/03/26 18:04:43 INFO Server started on port 3000
+2026/03/26 18:04:44 ERROR Memory usage above 80%
+2026/03/26 18:04:45 INFO Memory usage above 80%
+2026/03/26 18:04:46 INFO Database connection failed
+2026/03/26 18:04:47 INFO Database connection failed
+2026/03/26 18:04:48 ERROR Server started on port 3000
+2026/03/26 18:04:49 ERROR Database connection failed
+2026/03/26 18:04:50 ERROR Server started on port 3000
+2026/03/26 18:04:51 ERROR Database connection failed
+2026/03/26 18:04:52 WARN Database connection failed
+2026/03/26 18:04:53 WARN Database connection failed
+2026/03/26 18:04:54 INFO Memory usage above 80%
+2026/03/26 18:04:55 INFO Memory usage above 80%
+2026/03/26 18:04:56 INFO Memory usage above 80%
+2026/03/26 18:04:57 WARN Server started on port 3000
+2026/03/26 18:04:58 WARN Server started on port 3000
+2026/03/26 18:04:59 ERROR Server started on port 3000
+2026/03/26 18:05:00 WARN Server started on port 3000
+2026/03/26 18:05:01 WARN Server started on port 3000
+2026/03/26 18:05:02 ERROR Database connection failed
+2026/03/26 18:05:03 WARN Server started on port 3000
+2026/03/26 18:05:04 INFO Server started on port 3000
+2026/03/26 18:05:05 WARN Memory usage above 80%
+2026/03/26 18:05:06 ERROR Memory usage above 80%
+2026/03/26 18:05:07 WARN Server started on port 3000
+2026/03/26 18:05:08 INFO Server started on port 3000
+2026/03/26 18:05:09 ERROR Memory usage above 80%
+2026/03/26 18:05:10 ERROR Server started on port 3000
+2026/03/26 18:05:11 WARN Database connection failed
+2026/03/26 18:05:12 INFO Memory usage above 80%
+2026/03/26 18:05:13 WARN Memory usage above 80%
+2026/03/26 18:05:14 INFO Server started on port 3000
+2026/03/26 18:05:15 INFO Memory usage above 80%
+2026/03/26 18:05:16 INFO Database connection failed
+2026/03/26 18:05:17 ERROR Memory usage above 80%
+2026/03/26 18:05:18 WARN Memory usage above 80%
+2026/03/26 18:05:19 ERROR Database connection failed
+2026/03/26 18:05:20 ERROR Memory usage above 80%
+2026/03/26 18:05:21 WARN Server started on port 3000
+2026/03/26 18:05:22 ERROR Server started on port 3000
+2026/03/26 18:05:23 ERROR Memory usage above 80%
+2026/03/26 18:05:24 WARN Memory usage above 80%
+2026/03/26 18:05:25 INFO Server started on port 3000
+2026/03/26 18:05:26 WARN Database connection failed
+2026/03/26 18:05:27 ERROR Database connection failed
+2026/03/26 18:05:28 INFO Server started on port 3000
+2026/03/26 18:05:29 INFO Memory usage above 80%
+2026/03/26 18:05:30 WARN Server started on port 3000
+2026/03/26 18:05:31 ERROR Server started on port 3000
+2026/03/26 18:05:32 WARN Database connection failed
+2026/03/26 18:05:33 WARN Server started on port 3000
+2026/03/26 18:05:34 WARN Server started on port 3000
+2026/03/26 18:05:35 ERROR Memory usage above 80%
+2026/03/26 18:05:36 ERROR Memory usage above 80%
+2026/03/26 18:05:37 INFO Memory usage above 80%
+2026/03/26 18:05:38 ERROR Memory usage above 80%
+2026/03/26 18:05:39 INFO Memory usage above 80%
+2026/03/26 18:05:40 INFO Server started on port 3000
+2026/03/26 18:05:41 INFO Database connection failed
+2026/03/26 18:05:42 INFO Memory usage above 80%
+2026/03/26 18:05:43 WARN Memory usage above 80%
+2026/03/26 18:05:44 WARN Server started on port 3000
+2026/03/26 18:05:45 INFO Memory usage above 80%
+2026/03/26 18:05:46 WARN Server started on port 3000
+2026/03/26 18:05:47 WARN Database connection failed
+2026/03/26 18:05:48 WARN Memory usage above 80%
+2026/03/26 18:05:49 INFO Memory usage above 80%
+2026/03/26 18:05:50 WARN Database connection failed
+2026/03/26 18:05:51 ERROR Memory usage above 80%
+2026/03/26 18:05:52 INFO Database connection failed
+2026/03/26 18:05:53 ERROR Database connection failed
+2026/03/26 18:05:54 INFO Server started on port 3000
+2026/03/26 18:05:55 WARN Memory usage above 80%
+2026/03/26 18:05:56 INFO Server started on port 3000
+2026/03/26 18:05:57 WARN Server started on port 3000
+2026/03/26 18:05:58 ERROR Memory usage above 80%
+2026/03/26 18:05:59 ERROR Server started on port 3000
+2026/03/26 18:06:00 WARN Database connection failed
+2026/03/26 18:06:01 ERROR Server started on port 3000
+2026/03/26 18:06:02 WARN Memory usage above 80%
+2026/03/26 18:06:03 INFO Server started on port 3000
+2026/03/26 18:06:04 WARN Server started on port 3000
+2026/03/26 18:06:05 WARN Database connection failed
+2026/03/26 18:06:06 ERROR Server started on port 3000
+2026/03/26 18:06:07 INFO Memory usage above 80%
+2026/03/26 18:06:08 ERROR Database connection failed
+2026/03/26 18:06:09 ERROR Memory usage above 80%
+2026/03/26 18:06:10 INFO Memory usage above 80%
+2026/03/26 18:06:11 ERROR Memory usage above 80%
+2026/03/26 18:06:12 INFO Server started on port 3000
+2026/03/26 18:06:13 WARN Server started on port 3000
+2026/03/26 18:06:14 ERROR Database connection failed
+2026/03/26 18:06:15 INFO Server started on port 3000
+2026/03/26 18:06:16 INFO Database connection failed
+2026/03/26 18:06:17 WARN Database connection failed
+2026/03/26 18:06:18 WARN Database connection failed
+2026/03/26 18:06:19 INFO Server started on port 3000
+2026/03/26 18:06:20 ERROR Server started on port 3000
+2026/03/26 18:06:21 WARN Server started on port 3000
+2026/03/26 18:06:22 WARN Memory usage above 80%
+2026/03/26 18:06:23 ERROR Server started on port 3000
+2026/03/26 18:06:24 WARN Server started on port 3000
+2026/03/26 18:06:25 INFO Database connection failed
+2026/03/26 18:06:26 ERROR Database connection failed
+2026/03/26 18:06:27 WARN Memory usage above 80%
+2026/03/26 18:06:28 WARN Memory usage above 80%
+2026/03/26 18:06:29 WARN Server started on port 3000
+2026/03/26 18:06:30 ERROR Memory usage above 80%
+2026/03/26 18:06:31 WARN Server started on port 3000
+2026/03/26 18:06:32 INFO Database connection failed
+2026/03/26 18:06:33 ERROR Memory usage above 80%
+2026/03/26 18:06:34 INFO Server started on port 3000
+2026/03/26 18:06:35 WARN Server started on port 3000
+2026/03/26 18:06:36 WARN Memory usage above 80%
+2026/03/26 18:06:37 WARN Memory usage above 80%
+2026/03/26 18:06:38 WARN Memory usage above 80%
+2026/03/26 18:06:39 INFO Database connection failed
+2026/03/26 18:06:40 INFO Database connection failed
+2026/03/26 18:06:41 WARN Server started on port 3000
+2026/03/26 18:06:42 WARN Memory usage above 80%
+2026/03/26 18:06:43 WARN Server started on port 3000
+2026/03/26 18:06:44 ERROR Server started on port 3000
+2026/03/26 18:06:45 WARN Memory usage above 80%
+2026/03/26 18:06:46 WARN Server started on port 3000
+2026/03/26 18:06:47 WARN Database connection failed
+2026/03/26 18:06:48 INFO Server started on port 3000
+2026/03/26 18:06:49 ERROR Database connection failed
+2026/03/26 18:06:50 WARN Server started on port 3000
+2026/03/26 18:06:51 WARN Memory usage above 80%
+2026/03/26 18:06:52 INFO Database connection failed
+2026/03/26 18:06:53 WARN Server started on port 3000
+2026/03/26 18:06:54 WARN Database connection failed
+2026/03/26 18:06:55 WARN Server started on port 3000
+2026/03/26 18:06:56 INFO Memory usage above 80%
+2026/03/26 18:06:57 WARN Server started on port 3000
+2026/03/26 18:06:58 INFO Memory usage above 80%
+2026/03/26 18:06:59 ERROR Server started on port 3000
+2026/03/26 18:07:00 ERROR Server started on port 3000
+2026/03/26 18:07:01 WARN Database connection failed
+2026/03/26 18:07:02 ERROR Server started on port 3000
+2026/03/26 18:07:03 ERROR Database connection failed
+2026/03/26 18:07:04 ERROR Server started on port 3000
+2026/03/26 18:07:05 INFO Server started on port 3000
+2026/03/26 18:07:06 WARN Database connection failed
+2026/03/26 18:07:07 WARN Database connection failed
+2026/03/26 18:07:08 ERROR Server started on port 3000
+2026/03/26 18:07:09 ERROR Database connection failed
+2026/03/26 18:07:10 ERROR Memory usage above 80%
+2026/03/26 18:07:11 WARN Server started on port 3000
+2026/03/26 18:07:12 INFO Server started on port 3000
+2026/03/26 18:07:13 WARN Memory usage above 80%
+2026/03/26 18:07:14 WARN Database connection failed
+2026/03/26 18:07:15 WARN Server started on port 3000
+2026/03/26 18:07:16 ERROR Memory usage above 80%
+2026/03/26 18:07:17 WARN Server started on port 3000
+2026/03/26 18:07:18 WARN Server started on port 3000
+2026/03/26 18:07:19 ERROR Memory usage above 80%
+2026/03/26 18:07:20 WARN Server started on port 3000
+2026/03/26 18:07:21 WARN Server started on port 3000
+2026/03/26 18:07:22 ERROR Server started on port 3000
+2026/03/26 18:07:23 INFO Database connection failed
+2026/03/26 18:07:24 INFO Database connection failed
+2026/03/26 18:07:25 ERROR Memory usage above 80%
+2026/03/26 18:07:26 WARN Database connection failed
+2026/03/26 18:07:27 WARN Memory usage above 80%
+2026/03/26 18:07:28 ERROR Memory usage above 80%
+2026/03/26 18:07:29 ERROR Memory usage above 80%
+2026/03/26 18:07:30 INFO Memory usage above 80%
+2026/03/26 18:07:31 ERROR Database connection failed
+2026/03/26 18:07:32 ERROR Memory usage above 80%
+2026/03/26 18:07:33 INFO Memory usage above 80%
+2026/03/26 18:07:34 WARN Memory usage above 80%
+2026/03/26 18:07:35 INFO Server started on port 3000
+2026/03/26 18:07:36 ERROR Server started on port 3000
+2026/03/26 18:07:37 WARN Database connection failed
+2026/03/26 18:07:38 ERROR Database connection failed
+2026/03/26 18:07:39 INFO Database connection failed
+2026/03/26 18:07:40 INFO Server started on port 3000
+2026/03/26 18:07:41 ERROR Server started on port 3000
+2026/03/26 18:07:42 ERROR Server started on port 3000
+2026/03/26 18:07:43 INFO Server started on port 3000
+2026/03/26 18:07:44 WARN Server started on port 3000
+2026/03/26 18:07:45 INFO Memory usage above 80%
+2026/03/26 18:07:46 INFO Memory usage above 80%
+2026/03/26 18:07:47 INFO Database connection failed
+2026/03/26 18:07:48 ERROR Memory usage above 80%
+2026/03/26 18:07:49 ERROR Memory usage above 80%
+2026/03/26 18:07:50 WARN Database connection failed
+2026/03/26 18:07:51 INFO Server started on port 3000
+2026/03/26 18:07:52 INFO Database connection failed
+2026/03/26 18:07:53 WARN Server started on port 3000
+2026/03/26 18:07:54 ERROR Server started on port 3000
+2026/03/26 18:07:55 ERROR Database connection failed
+2026/03/26 18:07:56 WARN Database connection failed
+2026/03/26 18:07:57 ERROR Database connection failed
+2026/03/26 18:07:58 INFO Memory usage above 80%
+2026/03/26 18:07:59 WARN Server started on port 3000
+2026/03/26 18:08:00 WARN Memory usage above 80%
+2026/03/26 18:08:01 WARN Server started on port 3000
+2026/03/26 18:08:02 ERROR Server started on port 3000
+2026/03/26 18:08:03 INFO Server started on port 3000
+2026/03/26 18:08:04 WARN Database connection failed
+2026/03/26 18:08:05 INFO Memory usage above 80%
+2026/03/26 18:08:06 WARN Database connection failed
+2026/03/26 18:08:07 INFO Memory usage above 80%
+2026/03/26 18:08:08 INFO Database connection failed
+2026/03/26 18:08:09 WARN Memory usage above 80%
+2026/03/26 18:08:10 WARN Memory usage above 80%
+2026/03/26 18:08:11 WARN Server started on port 3000
+2026/03/26 18:08:12 INFO Server started on port 3000
+2026/03/26 18:08:13 WARN Database connection failed
+2026/03/26 18:08:14 ERROR Server started on port 3000
+2026/03/26 18:08:15 INFO Memory usage above 80%
+2026/03/26 18:08:16 WARN Database connection failed
+2026/03/26 18:08:17 INFO Server started on port 3000
+2026/03/26 18:08:18 ERROR Database connection failed
+2026/03/26 18:08:19 INFO Server started on port 3000
+2026/03/26 18:08:20 WARN Database connection failed
+2026/03/26 18:08:21 WARN Memory usage above 80%
+2026/03/26 18:08:22 INFO Server started on port 3000
+2026/03/26 18:08:23 ERROR Memory usage above 80%
+2026/03/26 18:08:24 INFO Memory usage above 80%
+2026/03/26 18:08:25 ERROR Server started on port 3000
+2026/03/26 18:08:26 WARN Server started on port 3000
+2026/03/26 18:08:27 WARN Server started on port 3000
+2026/03/26 18:08:28 ERROR Server started on port 3000
+2026/03/26 18:08:29 ERROR Server started on port 3000
+2026/03/26 18:08:30 ERROR Server started on port 3000
+2026/03/26 18:08:31 ERROR Database connection failed
+2026/03/26 18:08:32 INFO Memory usage above 80%
+2026/03/26 18:08:33 ERROR Server started on port 3000
+2026/03/26 18:08:34 WARN Server started on port 3000
+2026/03/26 18:08:35 ERROR Server started on port 3000
+2026/03/26 18:08:36 ERROR Server started on port 3000
+2026/03/26 18:08:37 ERROR Server started on port 3000
+2026/03/26 18:08:38 ERROR Memory usage above 80%
