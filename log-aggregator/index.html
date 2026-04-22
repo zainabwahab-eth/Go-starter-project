@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOG PAGE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+  <style>
+     body {
+      background: #0a0a0a;
+      color: #c8ffc8;
+      font-family: 'Share Tech Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+    <main>
+        <div id="logs"></div>
+    </main>
+</body>
+</html>
+
+<script>
+
+const socket = new WebSocket("ws://localhost:8181/ws")
+
+const colors = {
+    "INFO":  "green",
+    "WARN":  "orange",
+    "ERROR": "red"
+}
+
+socket.onmessage = function(event) {
+    const data = JSON.parse(event.data)  
+    const color = colors[data.level] || "white"
+    const div = document.createElement("div")
+    div.textContent = `[${data.timestamp}] ${data.level}: ${data.message}`
+    div.style.color = color
+    document.getElementById("logs").appendChild(div)
+    window.scrollTo(0, document.body.scrollHeight)
+}
+</script>

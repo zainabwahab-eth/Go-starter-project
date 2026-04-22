@@ -26,14 +26,18 @@ func watchFile(filename string, lines chan<- string) {
 		return
 	}
 
-	scanner := bufio.NewScanner(file)
+	reader := bufio.NewReader(file)
 
 	for {
 
-		for scanner.Scan() {
-			lines <- string(scanner.Text())
+		line, err := reader.ReadString('\n')
+
+		if err != nil {
+			time.Sleep(500 * time.Millisecond)
+			continue
 		}
-		time.Sleep(500 * time.Millisecond)
+
+		lines <- strings.TrimSuffix(line, "\n")
 	}
 
 }
@@ -55,29 +59,51 @@ func parseLogLine(line string) (LogEntry, error) {
 var upgrader = websocket.Upgrader{
 	ReadBufferSize:  1024,
 	WriteBufferSize: 1024,
+	CheckOrigin:     func(r *http.Request) bool { return true },
 }
 
-func wsHandler(w http.ResponseWriter, r *http.Request) {
-	conn, err := upgrader.Upgrade(w, r, nil)
+func createHandler(entries chan LogEntry) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		conn, err := upgrader.Upgrade(w, r, nil)
 
-	if err != nil {
-		fmt.Println("Error", err)
-		return
+		if err != nil {
+			fmt.Println("Upgrade Error", err)
+			return
+		}
+		defer conn.Close()
+
+		for entry := range entries {
+			err := conn.WriteJSON(entry)
+
+			if err != nil {
+				fmt.Println("Write Error:", err)
+				break
+			}
+		}
 	}
-
-	conn.WriteJSON()
 }
 
 func main() {
 	lines := make(chan string)
+	entries := make(chan LogEntry)
 	go watchFile("operation/app.log", lines)
+	// fmt.Println("HHHiiii")
 
-	for line := range lines {
-		entry, err := parseLogLine(line)
-		if err != nil {
-			fmt.Println(err)
+	go func() {
+		for line := range lines {
+			entry, err := parseLogLine(line)
+			if err != nil {
+				fmt.Println(err)
+			}
+			entries <- entry
+			// fmt.Println(entry)
 		}
-		fmt.Println(entry)
-	}
+	}()
+
+	http.HandleFunc("/ws", createHandler(entries))
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "index.html")
+	})
+	http.ListenAndServe(":8181", nil)
 
 }
