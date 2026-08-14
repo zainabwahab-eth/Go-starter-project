@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"math/rand/v2"
 	"net/http"
 	"sync"
 	"time"
@@ -101,6 +102,16 @@ func (q *Queue) GetFailedJobs() []*Job {
 	return jobs
 }
 
+func (q *Queue) GetAllJobs() []*Job {
+	jobs := []*Job{}
+	q.mu.RLock()
+	for _, job := range q.jobs {
+		jobs = append(jobs, job)
+	}
+	q.mu.Unlock()
+	return jobs
+}
+
 func NewQueue() *Queue {
 	q := &Queue{
 		jobs: make(map[string]*Job),
@@ -113,8 +124,11 @@ func NewQueue() *Queue {
 
 func processJob(job *Job) error {
 	fmt.Printf("Processing job %s of type %s\n", job.ID, job.Type)
-	time.Sleep(1 * time.Second)
-	return nil // always succeeds for now
+	time.Sleep(2 * time.Second)
+	if rand.IntN(2) == 0 {
+		return fmt.Errorf("random failure")
+	}
+	return nil
 }
 
 func Worker(q *Queue) {
@@ -172,7 +186,7 @@ func addNewJob(q *Queue) http.HandlerFunc {
 		}
 
 		if j.Priority > 3 || j.Priority < 1 {
-			writeResponse(http.StatusBadRequest, &Response{Message: "Priority cannot be greater than 3 or less than 0"}, w)
+			writeResponse(http.StatusBadRequest, &Response{Message: "Priority cannot be greater than 3 or less than 1"}, w)
 			return
 		}
 
@@ -187,7 +201,7 @@ func addNewJob(q *Queue) http.HandlerFunc {
 		}
 
 		q.Enqueue(&job)
-		writeResponse(http.StatusCreated, &Response{Message: "Job add successfully"}, w)
+		writeResponse(http.StatusCreated, &Response{Message: "Job add successfully", Job: &job}, w)
 	}
 
 }
@@ -212,7 +226,7 @@ func getAJob(q *Queue) http.HandlerFunc {
 	}
 }
 
-func getFailedJob(q *Queue) http.HandlerFunc {
+func getFailedJobs(q *Queue) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		jobs := q.GetFailedJobs()
 
@@ -222,6 +236,19 @@ func getFailedJob(q *Queue) http.HandlerFunc {
 		}
 
 		writeResponse(http.StatusOK, &Response{Message: "Failed jobs found", Jobs: jobs}, w)
+	}
+}
+
+func getAllJobs(q *Queue) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		jobs := q.GetAllJobs()
+
+		if len(jobs) == 0 {
+			writeResponse(http.StatusOK, &Response{Message: "No failed jobs"}, w)
+			return
+		}
+
+		writeResponse(http.StatusOK, &Response{Message: "All Jobs Found", Jobs: jobs}, w)
 	}
 }
 
@@ -239,8 +266,9 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("POST /jobs", addNewJob(queue))
+	mux.HandleFunc("GET /jobs", getAllJobs(queue))
 	mux.HandleFunc("GET /jobs/{id}", getAJob(queue))
-	mux.HandleFunc("GET /jobs/failed", getFailedJob(queue))
+	mux.HandleFunc("GET /jobs/failed", getFailedJobs(queue))
 
 	server := &http.Server{
 		Handler: mux,
