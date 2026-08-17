@@ -108,7 +108,7 @@ func (q *Queue) GetAllJobs() []*Job {
 	for _, job := range q.jobs {
 		jobs = append(jobs, job)
 	}
-	q.mu.Unlock()
+	q.mu.RUnlock()
 	return jobs
 }
 
@@ -244,7 +244,7 @@ func getAllJobs(q *Queue) http.HandlerFunc {
 		jobs := q.GetAllJobs()
 
 		if len(jobs) == 0 {
-			writeResponse(http.StatusOK, &Response{Message: "No failed jobs"}, w)
+			writeResponse(http.StatusOK, &Response{Message: "No jobs found"}, w)
 			return
 		}
 
