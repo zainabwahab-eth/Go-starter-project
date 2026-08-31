@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	handler "url-shortener/handlers"
 	"url-shortener/repository"
 
 	"github.com/go-chi/chi/v5"
@@ -60,7 +61,7 @@ func main() {
 
 	r.Use(middleware.Logger)
 
-	r.Post("/shorten", testHandler)
+	r.Post("/shorten", handler.ShortenHandler(conn, clicks))
 	r.Get("/{code}", testHandler)
 	r.Get("/stats/{code}", testHandler)
 	r.Get("/stats/{code}/timeline", testHandler)
