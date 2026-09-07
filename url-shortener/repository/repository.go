@@ -25,6 +25,11 @@ type Click struct {
 	Referrer  string    `json:"referrer"`
 }
 
+type TimelineEntry struct {
+	Hour   string `json:"hour"`
+	Clicks int    `json:"clicks"`
+}
+
 func CreateUrl(conn *pgx.Conn, shortCode, originalURL string) (*URL, error) {
 	query := `
 			INSERT INTO urls (short_code, original_url)
@@ -45,7 +50,9 @@ func CreateUrl(conn *pgx.Conn, shortCode, originalURL string) (*URL, error) {
 
 func GetUrl(conn *pgx.Conn, shortCode string) (*URL, error) {
 	query := `
-		SELECT id, short_code, original_url, created_at FROM urls WHERE short_code = $1
+		SELECT id, short_code, original_url, created_at 
+		FROM urls 
+		WHERE short_code = $1
 	`
 
 	var url URL
@@ -79,7 +86,9 @@ func SaveClick(conn *pgx.Conn, click Click) error {
 
 func GetClickStats(conn *pgx.Conn, shortCode string) ([]Click, error) {
 	query := `
-			SELECT id, short_code, clicked_at, device, browser, os, referrer FROM clicks WHERE short_code = $1
+			SELECT id, short_code, clicked_at, device, browser, os, referrer 
+			FROM clicks 
+			WHERE short_code = $1
 	`
 
 	rows, err := conn.Query(context.Background(), query, shortCode)
@@ -108,5 +117,45 @@ func GetClickStats(conn *pgx.Conn, shortCode string) ([]Click, error) {
 	}
 
 	return clicks, nil
+
+}
+
+func GetClickTimeline(conn *pgx.Conn, shortCode string) ([]TimelineEntry, error) {
+	query := `
+		SELECT 
+			TO_CHAR(DATE_TRUNC('hour', clicked_at), 'YYYY-MM-DD HH24:00') as hour,
+    		COUNT(*) as clicks
+		FROM clicks
+		WHERE short_code = $1
+		GROUP BY DATE_TRUNC('hour', clicked_at)
+		ORDER BY DATE_TRUNC('hour', clicked_at)
+	`
+
+	var tlEntries []TimelineEntry
+	var entry TimelineEntry
+
+	rows, err := conn.Query(context.Background(), query, shortCode)
+
+	if err != nil {
+		return tlEntries, fmt.Errorf("failed to get click stat: %w", err)
+	}
+
+	defer rows.Close()
+
+	for rows.Next() {
+		err := rows.Scan(&entry.Hour, &entry.Clicks)
+
+		if err != nil {
+			fmt.Errorf("failed to get click stat: %w", err)
+		}
+
+		tlEntries = append(tlEntries, entry)
+	}
+
+	if err := rows.Err(); err != nil {
+		return tlEntries, fmt.Errorf("failed to get click timeline: %w", err)
+	}
+
+	return tlEntries, nil
 
 }

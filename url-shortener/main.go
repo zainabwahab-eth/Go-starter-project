@@ -61,10 +61,10 @@ func main() {
 
 	r.Use(middleware.Logger)
 
-	r.Post("/shorten", handler.ShortenHandler(conn, clicks))
-	r.Get("/{code}", testHandler)
-	r.Get("/stats/{code}", testHandler)
-	r.Get("/stats/{code}/timeline", testHandler)
+	r.Post("/shorten", handler.ShortenHandler(conn))
+	r.Get("/{code}", handler.RedirectHandler(conn, clicks))
+	r.Get("/stats/{code}", handler.StatsHandler(conn))
+	r.Get("/stats/{code}/timeline", handler.TimelineHandler(conn))
 
 	server := &http.Server{
 		Handler: r,
