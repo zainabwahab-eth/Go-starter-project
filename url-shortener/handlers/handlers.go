@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"time"
 	"url-shortener/repository"
+	"url-shortener/utils"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/jackc/pgx/v5"
@@ -15,19 +16,6 @@ type ShortenRequest struct {
 	URL string `json:"url"`
 }
 
-type Response struct {
-	Message   string                     `json:"message,omitempty"`
-	URL       *repository.URL            `json:"url,omitempty"`
-	Clicks    []repository.Click         `json:"clicks,omitempty"`
-	Timelines []repository.TimelineEntry `json:"timelines,omitempty"`
-}
-
-func writeJSON(w http.ResponseWriter, status int, data any) {
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(status)
-	json.NewEncoder(w).Encode(data)
-}
-
 func ShortenHandler(conn *pgx.Conn) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		var s ShortenRequest
@@ -35,23 +23,23 @@ func ShortenHandler(conn *pgx.Conn) http.HandlerFunc {
 		var err error
 		var result *repository.URL
 		if err = json.NewDecoder(r.Body).Decode(&s); err != nil {
-			writeJSON(w, http.StatusBadRequest, &Response{Message: "Url is required"})
+			utils.WriteJSON(w, http.StatusBadRequest, &utils.Response{Message: "Url is required"})
 			return
 		}
 
 		if s.URL == "" {
-			writeJSON(w, http.StatusBadRequest, &Response{Message: "Url cannot be empty"})
+			utils.WriteJSON(w, http.StatusBadRequest, &utils.Response{Message: "Url cannot be empty"})
 			return
 		}
 
 		code := repository.GenerateShortCode()
 
 		if result, err = repository.CreateUrl(conn, code, s.URL); err != nil {
-			writeJSON(w, http.StatusInternalServerError, &Response{Message: "Error creating Url"})
+			utils.WriteJSON(w, http.StatusInternalServerError, &utils.Response{Message: "Error creating Url"})
 			return
 		}
 
-		writeJSON(w, http.StatusCreated, &Response{Message: "Key set successfully", URL: result})
+		utils.WriteJSON(w, http.StatusCreated, &utils.Response{Message: "Key set successfully", URL: result})
 
 	}
 }
@@ -63,7 +51,7 @@ func RedirectHandler(conn *pgx.Conn, clicks chan repository.Click) http.HandlerF
 		url, err := repository.GetUrl(conn, shortCode)
 
 		if err != nil {
-			writeJSON(w, http.StatusNotFound, &Response{Message: "Url not found"})
+			utils.WriteJSON(w, http.StatusNotFound, &utils.Response{Message: "Url not found"})
 			return
 		}
 
@@ -96,18 +84,18 @@ func StatsHandler(conn *pgx.Conn) http.HandlerFunc {
 		url, err := repository.GetUrl(conn, shortCode)
 
 		if err != nil {
-			writeJSON(w, http.StatusNotFound, &Response{Message: "Url not found"})
+			utils.WriteJSON(w, http.StatusNotFound, &utils.Response{Message: "Url not found"})
 			return
 		}
 
 		clicks, err := repository.GetClickStats(conn, shortCode)
 
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, &Response{Message: "Something went wrong"})
+			utils.WriteJSON(w, http.StatusInternalServerError, &utils.Response{Message: "Something went wrong"})
 			return
 		}
 
-		writeJSON(w, http.StatusOK, &Response{URL: url, Clicks: clicks})
+		utils.WriteJSON(w, http.StatusOK, &utils.Response{URL: url, Clicks: clicks})
 	}
 }
 
@@ -118,17 +106,17 @@ func TimelineHandler(conn *pgx.Conn) http.HandlerFunc {
 		url, err := repository.GetUrl(conn, shortCode)
 
 		if err != nil {
-			writeJSON(w, http.StatusNotFound, &Response{Message: "Url not found"})
+			utils.WriteJSON(w, http.StatusNotFound, &utils.Response{Message: "Url not found"})
 			return
 		}
 
 		clicksTL, err := repository.GetClickTimeline(conn, shortCode)
 
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, &Response{Message: "Something went wrong"})
+			utils.WriteJSON(w, http.StatusInternalServerError, &utils.Response{Message: "Something went wrong"})
 			return
 		}
 
-		writeJSON(w, http.StatusOK, &Response{URL: url, Timelines: clicksTL})
+		utils.WriteJSON(w, http.StatusOK, &utils.Response{URL: url, Timelines: clicksTL})
 	}
 }

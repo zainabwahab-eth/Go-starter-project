@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	handler "url-shortener/handlers"
+	lMiddleware "url-shortener/middleware"
 	"url-shortener/repository"
 
 	"github.com/go-chi/chi/v5"
@@ -60,6 +61,7 @@ func main() {
 	r := chi.NewRouter()
 
 	r.Use(middleware.Logger)
+	r.Use(lMiddleware.RateLimitMiddleware)
 
 	r.Post("/shorten", handler.ShortenHandler(conn))
 	r.Get("/{code}", handler.RedirectHandler(conn, clicks))

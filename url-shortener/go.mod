@@ -10,4 +10,5 @@ require (
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/mssola/useragent v1.0.0 // indirect
 	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/time v0.15.0 // indirect
 )
